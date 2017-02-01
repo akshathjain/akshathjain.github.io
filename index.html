@@ -5,52 +5,55 @@
 
 	<!--MDL resources-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-teal.min.css" />
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-	<style>
-		footer{
-			margin-left: 240px
-		}
-
-		main{
-			margin-left: 240px;
-		}
-	</style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-
 		<!-- header -->
-		<header class="mdl-layout__header">
-			<div class="mdl-layout-icon"></div>
+		<header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-900">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title">Home</span>
+			</div>
 		</header>
 
 		<!-- drawer -->
 		<div class="mdl-layout__drawer">
-			<span class="mdl-layout__title">Akshath Jain</span>
+			<!-- avatar image with my name below it-->
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--1-col">
+					<img src="images/MyFace.png" class="avatar" alt="avatar">
+				</div>
+			</div>
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--12-col">								
+					<span class="mdl-layout__title">Akshath Jain</span>
+				</div>
+			</div>
+
+			<!-- drawer nav links -->
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" href="#">Projects</a>
-				<a class="mdl-navigation__link" href="#">Tutorials</a>
-				<a class="mdl-navigation__link" href="#">About</a>
+				<a class="mdl-navigation__link" href="#">Code One</a>
+				<a class="mdl-navigation__link" href="#">Contact</a>
 			</nav>
 		</div>
 
-
-		<!-- main hompage -->
-		<main class="mdl-layout_contnet">
+		<!-- content goes here (footer inside of this)-->
+		<main class="mdl-layout__content">
 			<div class="page-content">
+
 			</div>
-		</main>
-		
-		<!-- footer -->
-		<footer class="mdl-mini-footer">
-			<div class="mdl-mini-footer__left-section">
+
+			<!-- footer -->
+			<footer class="mdl-mini-footer" style="position: absolute; left: 0px; right: 0px; bottom: 0px">
 				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
-			</div>
-		</footer>
+			</footer>
+		</main>
 	</div>
 </body>
 </html>
