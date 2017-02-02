@@ -1,6 +1,23 @@
+.mdl-layout-title{
+	color: #757575;
+}
+
 .avatar{
 	margin-top: 10px;
 	width: 160px;
 	height: auto;
 	border-radius: 50%;
 }
+
+.nav-drawer-list-image{
+	width: 24px;
+	margin-right: 31px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.mdl-navigation__link{
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
