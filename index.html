@@ -15,6 +15,10 @@
  		var changeHeaderName = function(name){
  			document.getElementById("pageName").innerHTML = name;
  		}
+
+ 		var changePageContent = function(name){
+ 			document.getElementById("pageContent").setAttribute("src", name + ".html");
+ 		}
 	</script>
 </head>
 
@@ -44,19 +48,19 @@
 
 			<!-- drawer nav links -->
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="#" onclick="changeHeaderName('Home')">
+				<a class="mdl-navigation__link" href="#home" onclick="changeHeaderName('Home'), changePageContent('home')">
 					<img class="nav-drawer-list-image" src="images/home.png">
 					Home
 				</a>
-				<a class="mdl-navigation__link" href="#" onclick="changeHeaderName('Projects')">
+				<a class="mdl-navigation__link" href="#projects" onclick="changeHeaderName('Projects'), changePageContent('projects')">
 					<img class="nav-drawer-list-image" src="images/projects.png">
 					Projects
 				</a>
-				<a class="mdl-navigation__link" href="#" onclick="changeHeaderName('Code One')">
+				<a class="mdl-navigation__link" href="#codeone" onclick="changeHeaderName('Code One'), changePageContent('codeone')">
 					<img class="nav-drawer-list-image" src="images/codeone.png">
 					Code One
 				</a>
-				<a class="mdl-navigation__link" href="#" onclick="changeHeaderName('Contact')">
+				<a class="mdl-navigation__link" href="#contact" onclick="changeHeaderName('Contact'), changePageContent('contact')">
 					<img class="nav-drawer-list-image" src="images/contact.png">
 					Contact
 				</a>
@@ -65,7 +69,8 @@
 
 		<!-- content goes here (footer inside of this)-->
 		<main class="mdl-layout__content">
-			<div id="pageContent" class="page-content">
+			<div class="page-content">
+				<iframe id="pageContent" src="home.html" style="border:none"></iframe>
 			</div>
 
 			<!-- footer -->
