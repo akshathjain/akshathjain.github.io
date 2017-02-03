@@ -16,9 +16,9 @@
 			document.getElementById("pageName").innerHTML = name;
 		}
 
-		var changePageContent = function(name){
+		/*var changePageContent = function(name){
 			document.getElementById("pageContent").setAttribute("src", name + ".html");
-		}
+		}*/
 	</script>
 </head>
 
@@ -47,20 +47,20 @@
 			</div>
 
 			<!-- drawer nav links -->
-			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="#home" onclick="changeHeaderName('Home'), changePageContent('home')">
+			<nav class="mdl-navigation mdl-js-ripple-effect">
+				<a class="mdl-navigation__link is-active" href="#home" onclick="changeHeaderName('Home')">
 					<img class="nav-drawer-list-image" src="images/home.png">
 					Home
 				</a>
-				<a class="mdl-navigation__link" href="#projects" onclick="changeHeaderName('Projects'), changePageContent('projects')">
+				<a class="mdl-navigation__link" href="#projects" onclick="changeHeaderName('Projects')">
 					<img class="nav-drawer-list-image" src="images/projects.png">
 					Projects
 				</a>
-				<a class="mdl-navigation__link" href="#codeone" onclick="changeHeaderName('Code One'), changePageContent('codeone')">
+				<a class="mdl-navigation__link" href="#codeone" onclick="changeHeaderName('Code One')">
 					<img class="nav-drawer-list-image" src="images/codeone.png">
 					Code One
 				</a>
-				<a class="mdl-navigation__link" href="#contact" onclick="changeHeaderName('Contact'), changePageContent('contact')">
+				<a class="mdl-navigation__link" href="#contact" onclick="changeHeaderName('Contact')">
 					<img class="nav-drawer-list-image" src="images/contact.png">
 					Contact
 				</a>
@@ -69,29 +69,50 @@
 
 		<!-- content goes here (footer inside of this)-->
 		<main class="mdl-layout__content">
-			<div class="page-content">
-				<!-- grid to make sure stuff lines up -->
-				<div class="mdl-grid" align="middle">
-					<div class="mdl-cell mdl-cell--12-col" style="text-align: left">
-						<!-- welcome screen card -->
-						<div class="mdl-card mdl-shadow--2dp" style="width: 90%;">
-							 <div class="mdl-card__title">
-							 	<h2 class="mdl-card__title-text">Welcome!</h2>
-							 </div>
-							 <div class="mdl-card__supporting-text">
-							 	Hello there! I'm Akshath Jain and I'm currently a junior at North Allegheny Senior High Schol. Welcome to website and feel free to take a look around. You'll find some of the projects that I've been working on along with some of my accomplishments. If you would like to contact me, you can do that too!
-							 </div>
+			<section class="is-active" style="visibility: ;" id="home">
+				<div class="page-content">
+					<!-- grid to make sure stuff lines up -->
+					<div class="mdl-grid" align="middle">
+						<div class="mdl-cell mdl-cell--12-col" style="text-align: left">
+							<!-- welcome screen card -->
+							<div class="mdl-card mdl-shadow--2dp" style="width: 90%;">
+								 <div class="mdl-card__title">
+								 	<h2 class="mdl-card__title-text">Welcome!</h2>
+								 </div>
+								 <div class="mdl-card__supporting-text">
+								 	Hello there! I'm Akshath Jain and I'm currently a junior at North Allegheny Senior High Schol. Welcome to website and feel free to take a look around. You'll find some of the projects that I've been working on along with some of my accomplishments. If you would like to contact me, you can do that too!
+								 </div>
+							</div>
 						</div>
-
 					</div>
 				</div>
-			</div>
-
-			<!-- footer -->
-			<footer class="mdl-mini-footer" style="position: absolute; left: 0px; right: 0px; bottom: 0px">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
-			</footer>
+			</section>
+			<section class="" id="projects">
+				<div class="page-content">
+					<!-- grid to make sure stuff lines up -->
+					<div class="mdl-grid" align="middle">
+						<div class="mdl-cell mdl-cell--12-col" style="text-align: left">
+							<!-- welcome screen card -->
+							<div class="mdl-card mdl-shadow--2dp" style="width: 90%;">
+								 <div class="mdl-card__title">
+								 	<h2 class="mdl-card__title-text">Projects!</h2>
+								 </div>
+								 <div class="mdl-card__supporting-text">
+								 	as;dfjas;dfkjou can do that too!
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page-content" style="position: absolute; left: 0px; right: 0px; bottom: 0px">
+				<!-- footer -->
+				<footer class="mdl-mini-footer">
+					<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
+				</footer>
+			</section>
 		</main>
+
 	</div>
 </body>
 </html>
