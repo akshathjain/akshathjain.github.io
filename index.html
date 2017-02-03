@@ -12,13 +12,13 @@
 	<link rel="stylesheet" href="styles.css">
 
 	<script type="text/javascript">
- 		var changeHeaderName = function(name){
- 			document.getElementById("pageName").innerHTML = name;
- 		}
+		var changeHeaderName = function(name){
+			document.getElementById("pageName").innerHTML = name;
+		}
 
- 		var changePageContent = function(name){
- 			document.getElementById("pageContent").setAttribute("src", name + ".html");
- 		}
+		var changePageContent = function(name){
+			document.getElementById("pageContent").setAttribute("src", name + ".html");
+		}
 	</script>
 </head>
 
@@ -70,7 +70,21 @@
 		<!-- content goes here (footer inside of this)-->
 		<main class="mdl-layout__content">
 			<div class="page-content">
-				<iframe id="pageContent" src="home.html" style="border:none"></iframe>
+				<!-- grid to make sure stuff lines up -->
+				<div class="mdl-grid" align="middle">
+					<div class="mdl-cell mdl-cell--12-col" style="text-align: left">
+						<!-- welcome screen card -->
+						<div class="mdl-card mdl-shadow--2dp" style="width: 90%;">
+							 <div class="mdl-card__title">
+							 	<h2 class="mdl-card__title-text">Welcome!</h2>
+							 </div>
+							 <div class="mdl-card__supporting-text">
+							 	Hello there! I'm Akshath Jain and I'm currently a junior at North Allegheny Senior High Schol. Welcome to website and feel free to take a look around. You'll find some of the projects that I've been working on along with some of my accomplishments. If you would like to contact me, you can do that too!
+							 </div>
+						</div>
+
+					</div>
+				</div>
 			</div>
 
 			<!-- footer -->
