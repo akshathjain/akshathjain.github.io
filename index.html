@@ -2,30 +2,20 @@
 <html>
 <head>
 	<title>Akshath Jain</title>
+	<link rel="shortcut icon" type="image/png" href="images/avatar.png">
 
 	<!--MDL resources-->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-teal.min.css" />
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- custom resources -->
 	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="scripts.js"></script>
 
-	<script type="text/javascript">
-		var changeHeaderName = function(name){
-			document.getElementById("pageName").innerHTML = name;
-		}
-
-		$(document).ready(function(){
-			$("#homeNavLink").click(function(){
-				$.get("home.html", function(data, status, xhr){
-					alert(status);
-					$("#pageContent").html(data);
-				});
-			});
-		});
-	</script>
 </head>
 
 <body>
@@ -78,17 +68,36 @@
 			
 			<!--HOME SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
-				
+				<div class="card-container">
+					<div class="card">
+						<img class="home-me-image" src="images/me.png">
+						<div class="mdl-grid card-text-container">
+							<div class="mdl-cell mdl-cell-4-col">
+								<i class="material-icons icon-style">polymer</i>
+								<h3>Welcome</h3>
+								<p>Hi, I'm Akshath Jain. Welcome to my website! I'm an avid Android Developer, programmer, and artificial intelligence aficionado. I'm currently a senior at North Allegheny Senior High School, and I enjoy running and playing tennis. Feel free to take a look around my site at some of the things I've done.</p>
+							</div>
+							<div class="mdl-cell mdl-cell-4-col">
+								<i class="material-icons icon-style">folder</i>
+								<h3>Projects</h3>
+								<p>Feel free to take a look at some of the projects that I've done over the years. They range from Android applications to machine learning to clubs and organizations that I've started up. Get started here!</p>
+							</div>
+							<div class="mdl-cell mdl-cell-4-col">
+								<i class="material-icons icon-style">contacts</i>
+								<h3>Contact</h3>
+								<p>Have any questions, comments, or concerns? Feel free to contact me at anytime!</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 
-			
+			<!-- FOOTER -->
+			<footer class="mdl-mini-footer">
+				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
+			</footer>
 		</main>
-
-		<!-- FOOTER -->
-		<footer class="mdl-mini-footer">
-			<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
-		</footer>
 	</div>
 </body>
 </html>
