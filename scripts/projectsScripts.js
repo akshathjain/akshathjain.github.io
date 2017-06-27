@@ -2,8 +2,8 @@ $(document).ready(function(){
 	
 	//load JSON
 	$.getJSON('https://akshathjain.github.io/json/projects.json', function(data){
-		console.log(data);
-		console.log(data.researchProjects.length);
+		//console.log(data);
+		//console.log(data.researchProjects.length);
 
 		//inflate research projects	
 		layoutInflator(data.researchProjects, "research-project-layout", "research-project-container");
