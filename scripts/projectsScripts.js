@@ -1,13 +1,16 @@
 $(document).ready(function(){
 	
 	//load JSON
-	var data = JSON.parse('[ { "title":"Lexical Syntax Analysis for hostile behavior identification", "description":"ads;faksdjf ;asjf;aslkdjf ;akljdf ;a;slfjd ;lkdjaf;aslk ja;lkdfj ;ajdf" }, { "title":"OCR Algorithm", "description":"a;sdkfj a;lskdfj a;slf k;klajs ;flkasjf ;ksjfa;lskjf" }, { "title":"HWR Algorithm", "description":"as;fajsdf;akjsf; lkjas; lf;ljs;dlfj as" }, { "title":"Student Planner", "description":"as;fdkjasdf;alksdfj;lasj" }, { "title":"Calculator X", "description":"asd;dfkjas ;laskjdf a;sldk ja;sldkfj" } ]');
+	$.getJSON('https://akshathjain.github.io/json/projects.json', function(data){
+		console.log(data);
+		console.log(data.researchProjects.length);
 
-	//inflate research projects
-	layoutInflator(data, "research-project-layout", "research-project-container");
+		//inflate research projects	
+		layoutInflator(data.researchProjects, "research-project-layout", "research-project-container");
 
-	//inflate all projects
-	//inflate clubs/organizations
+		//inflate all projects
+		//inflate clubs/organizations
+	});
 
 });
 
