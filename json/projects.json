@@ -1,24 +1,28 @@
 {
 	"researchProjects":[
 		{
-			"title":"Lexical Syntax Analysis for hostile behavior identification",
+			"title":"Opto-Lexical Pattern Analysis for Behavior Classification",
 			"description":"ads;faksdjf ;asjf;aslkdjf ;akljdf ;a;slfjd ;lkdjaf;aslk ja;lkdfj ;ajdf"
 		},
 		{
-			"title":"OCR Algorithm",
+			"title":"Lexical Syntax Analysis for Hostile Behavior Identification",
 			"description":"a;sdkfj a;lskdfj a;slf k;klajs ;flkasjf ;ksjfa;lskjf"
 		},
 		{
-			"title":"HWR Algorithm",
+			"title":"IRES: Infrared Energy Saving Device",
 			"description":"as;fajsdf;akjsf; lkjas; lf;ljs;dlfj as"
-		},
+		}
+	],
+	"programmingProjects":[
 		{
-			"title":"Student Planner",
-			"description":"as;fdkjasdf;alksdfj;lasj"
-		},
+			"title":"",
+			"description":""
+		}
+	],
+	"cos":[
 		{
-			"title":"Calculator X",
-			"description":"asd;dfkjas ;laskjdf a;sldk ja;sldkfj"
+			"title":"",
+			"description":""
 		}
 	]
 }
