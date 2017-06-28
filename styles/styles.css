@@ -47,8 +47,8 @@ p{
 }
 
 .card-container-research-projects{
-	margin-left: 150px;
-	margin-right: 150px;
+	width: 80%;
+	margin: auto; /*center align*/
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
@@ -62,7 +62,7 @@ p{
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 15px;*/
 	color: #424242;
 }
 

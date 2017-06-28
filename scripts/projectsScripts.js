@@ -19,11 +19,12 @@ function layoutInflator(data, template, holder){
 	var layout = document.getElementById(template);
 	for(var i = 0; i < data.length; i++){
 		var layoutClone = layout.cloneNode(true);
+		layoutClone.id = template + "-" + i;
 		var title = layoutClone.getElementsByTagName("h3");
 		title[0].innerHTML = data[i].title;
 		var description = layoutClone.getElementsByTagName("p");
 		description[0].innerHTML = data[i].description;
 		document.getElementById(holder).appendChild(layoutClone);
 	}
-	layout.style.display = "none"; //hide the layout template
+	//layout.style.display = "none"; //hide the layout template
 }
