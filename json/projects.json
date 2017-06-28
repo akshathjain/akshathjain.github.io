@@ -5,7 +5,7 @@
 			"description":"As per the status quo, 90 percent of all terrorist communications occur through social media. This project is designed around ameliorating, or even solving, the aforementioned problem. This is done by analyzing publicly accessible accounts using opto-lexical techniques (images, media, text, etc.) for general behavior categorization, and making distinctions upon those accounts. This allows a custom designed artificial neural network to determine which accounts are potentially hostile in nature. After experimentation, this algorithm was deemed to be 81 percent accurate in classifying accounts. A successful implementation of this project could be used as an early warning system for imminent threats and a potential tool for silencing terrorists on the internet.",
 			"buttons":[
 				{
-					"title":"VIEW PRESENTATION",
+					"title":"VIEW PRESENTATION"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER"
