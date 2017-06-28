@@ -20,10 +20,20 @@ function layoutInflator(data, template, holder){
 	for(var i = 0; i < data.length; i++){
 		var layoutClone = layout.cloneNode(true);
 		layoutClone.id = template + "-" + i;
+
 		var title = layoutClone.getElementsByTagName("h3");
-		title[0].innerHTML = data[i].title;
-		var description = layoutClone.getElementsByTagName("p");
-		description[0].innerHTML = data[i].description;
+		var description = layoutClone.getElementsByTagName("p")[0];
+		var buttonList = layoutClone.getElementsByTagName("p")[1];
+
+		title.innerHTML = data[i].title;
+		description.innerHTML = data[i].description;
+
+		if(data[i].buttons != null){
+			for(var j = 0; j < data[i].buttons.length; j++)
+				buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">' + data[i].buttons[j].title
+					'</button>'
+		}
+
 		document.getElementById(holder).appendChild(layoutClone);
 	}
 	//layout.style.display = "none"; //hide the layout template
