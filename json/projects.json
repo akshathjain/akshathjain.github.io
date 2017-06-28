@@ -6,7 +6,7 @@
 		},
 		{
 			"title":"Lexical Syntax Analysis for Hostile Behavior Identification",
-			"description":"a;sdkfj a;lskdfj a;slf k;klajs ;flkasjf ;ksjfa;lskjf"
+			"description":"During the 2015-2016 school year, I created a designed a machine learning algorithm that would collect user data from Twitter, process that data to determine linguistic patterns, and classify accounts as being related to possible terrorist accounts. This project yielded true-positive rates of 84 percent and was extremely successful in correctly categorizing accounts."
 		},
 		{
 			"title":"IRES: Infrared Energy Saving Device",
