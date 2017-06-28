@@ -6,11 +6,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 
 				}
 			]
@@ -21,15 +21,15 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				},
 				{
 					"title":"VISIT PAGE",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				}
 			]
 		},
@@ -39,11 +39,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"onclick=\"function(){}\""
+					"onclick":""
 				}
 			]
 		}
