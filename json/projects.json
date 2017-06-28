@@ -5,10 +5,13 @@
 			"description":"As per the status quo, 90 percent of all terrorist communications occur through social media. This project is designed around ameliorating, or even solving, the aforementioned problem. This is done by analyzing publicly accessible accounts using opto-lexical techniques (images, media, text, etc.) for general behavior categorization, and making distinctions upon those accounts. This allows a custom designed artificial neural network to determine which accounts are potentially hostile in nature. After experimentation, this algorithm was deemed to be 81 percent accurate in classifying accounts. A successful implementation of this project could be used as an early warning system for imminent threats and a potential tool for silencing terrorists on the internet.",
 			"buttons":[
 				{
-					"title":"VIEW PRESENTATION"
+					"title":"VIEW PRESENTATION",
+					"onclick":"onclick=\"function(){}\""
 				},
 				{
-					"title":"DOWNLOAD RESEARCH PAPER"
+					"title":"DOWNLOAD RESEARCH PAPER",
+					"onclick":"onclick=\"function(){}\""
+
 				}
 			]
 		},
@@ -17,13 +20,16 @@
 			"description":"During the 2015-2016 school year, I created a designed a machine learning algorithm that would collect user data from Twitter, process that data to determine linguistic patterns, and classify accounts as being related to possible terrorist accounts. This project yielded true-positive rates of 84 percent and was extremely successful in correctly categorizing accounts.",
 			"buttons":[
 				{
-					"title":"VIEW PRESENTATION"
+					"title":"VIEW PRESENTATION",
+					"onclick":"onclick=\"function(){}\""
 				},
 				{
-					"title":"VISIT PAGE"
+					"title":"VISIT PAGE",
+					"onclick":"onclick=\"function(){}\""
 				},
 				{
-					"title":"DOWNLOAD RESEARCH PAPER"
+					"title":"DOWNLOAD RESEARCH PAPER",
+					"onclick":"onclick=\"function(){}\""
 				}
 			]
 		},
@@ -32,10 +38,12 @@
 			"description":"During the 2014-2015 school year, I created a tested a device designed to reduced a computer's power consumption by intelligently tracking a user's presence at a computer. When the device (IRES) identified that a user had left, it would issue a series of commands that would turn the computer screen off, put the computer to sleep, or hibernate it depending upon the scenario.",
 			"buttons":[
 				{
-					"title":"VIEW PRESENTATION"
+					"title":"VIEW PRESENTATION",
+					"onclick":"onclick=\"function(){}\""
 				},
 				{
-					"title":"DOWNLOAD RESEARCH PAPER"
+					"title":"DOWNLOAD RESEARCH PAPER",
+					"onclick":"onclick=\"function(){}\""
 				}
 			]
 		}
