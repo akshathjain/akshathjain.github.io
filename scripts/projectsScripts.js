@@ -21,7 +21,7 @@ function layoutInflator(data, template, holder){
 		var layoutClone = layout.cloneNode(true);
 		layoutClone.id = template + "-" + i;
 
-		var title = layoutClone.getElementsByTagName("h3");
+		var title = layoutClone.getElementsByTagName("h3")[0]	;
 		var description = layoutClone.getElementsByTagName("p")[0];
 		var buttonList = layoutClone.getElementsByTagName("p")[1];
 
@@ -29,12 +29,13 @@ function layoutInflator(data, template, holder){
 		description.innerHTML = data[i].description;
 
 		if(data[i].buttons != null){
-			for(var j = 0; j < data[i].buttons.length; j++)
-				buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">' + data[i].buttons[j].title
-					'</button>'
+			for(var j = 0; j < data[i].buttons.length; j++){
+				buttonList.innerHTML += '<button class="material-button">' + data[i].buttons[j].title + '</button>'
+				buttonList.innerHTML += "&nbsp;&nbsp"
+			}
 		}
 
 		document.getElementById(holder).appendChild(layoutClone);
 	}
-	//layout.style.display = "none"; //hide the layout template
+	layout.style.display = "none"; //hide the layout template
 }
