@@ -30,7 +30,7 @@ function layoutInflator(data, template, holder){
 
 		if(data[i].buttons != null){
 			for(var j = 0; j < data[i].buttons.length; j++){
-				buttonList.innerHTML += '<button class="material-button"' + 'onclick="function(){' + data[i].buttons[j].onclick + '}>' + data[i].buttons[j].title + '</button>'
+				buttonList.innerHTML += '<button class="material-button"' + 'onclick="' + data[i].buttons[j].onclick + '">' + data[i].buttons[j].title + '</button>'
 				buttonList.innerHTML += "&nbsp;&nbsp"
 			}
 		}

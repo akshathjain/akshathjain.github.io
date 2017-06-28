@@ -6,7 +6,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":""
+					"onclick":"window.alert('coming soon!');"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
