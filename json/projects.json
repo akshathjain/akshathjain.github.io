@@ -11,6 +11,10 @@
 				{
 					"title":"VIEW RESEARCH PAPER",
 					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017ResearchPaper.pdf');"
+				},
+				{
+					"title":"VIEW DATA BOOK",
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017DataBook.pdf');"
 				}
 			]
 		},
