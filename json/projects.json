@@ -61,9 +61,14 @@
 	],
 	"programmingProjects":[
 		{
-			"title":"Handwriting Recognition Algorithm",
+			"title":"DrawBoard: A Handwriting Recognition Algorithm",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW PRESENTATION",
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/DrawBoardPresentation.pdf');"
+				}
+			]
 		},
 		{
 			"title":"Pittsburgh Forensics Institute Website",
