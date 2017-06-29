@@ -68,12 +68,22 @@
 		{
 			"title":"Pittsburgh Forensics Institute Website",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VISIT SITE",
+					"onclick":"window.location.assign('http://pghforensics.org');"
+				}
+			]
 		},
 		{
 			"title":"VIRtual eTracker",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW PRESENTATION",
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/VirtualEtrackerPresentation.pdf');"
+				}
+			]
 		},
 		{
 			"title":"Literatim",
@@ -83,12 +93,22 @@
 		{
 			"title":"Code One Website",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VISIT SITE",
+					"onclick":"window.location.assign('http://projectcodeone.org');"
+				}
+			]
 		},
 		{
 			"title":"Student Planner",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW PLAY STORE LISTING",
+					"onclick":"window.location.assign('https://play.google.com/store/apps/details?id=com.akshathjain.studentplanner');"
+				}
+			]
 		},
 		{
 			"title":"Optical Character Recognition Algorithm",
@@ -103,7 +123,12 @@
 		{
 			"title":"Calculator X",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW PLAY STORE LISTING",
+					"onclick":"window.location.assign('https://play.google.com/store/apps/details?id=com.aceindustries.calculator');"
+				}
+			]
 		}
 	],
 	"cos":[
