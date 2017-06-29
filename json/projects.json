@@ -117,7 +117,7 @@
 		},
 		{
 			"title":"Optical Character Recognition Algorithm",
-			"description":"",
+			"description":"This is an Android application and OCR algorithm that can take pictures of text or numbers and identify what letters of numbers are in that picture. The application and OCR algorithm utilize machine learning (Artificial Neural Networks) and image processing in order to complete this task effectively.",
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
@@ -127,7 +127,7 @@
 		},
 		{
 			"title":"Word Search Solver and Generator",
-			"description":"",
+			"description":"This is an Android application designed to both create and solve word searches up to 100 rows by 100 rows.",
 			"buttons":[]
 		},
 		{
