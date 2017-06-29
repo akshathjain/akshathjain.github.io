@@ -34,7 +34,7 @@
 			]
 		},
 		{
-			"title":"IRES: Infrared Energy Saving Device",
+			"title":"Using IR Sensors to Limit the Screen-On Time of a Computer",
 			"description":"During the 2014-2015 school year, I created a tested a device designed to reduced a computer's power consumption by intelligently tracking a user's presence at a computer. When the device (IRES) identified that a user had left, it would issue a series of commands that would turn the computer screen off, put the computer to sleep, or hibernate it depending upon the scenario.",
 			"buttons":[
 				{
