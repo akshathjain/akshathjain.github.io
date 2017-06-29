@@ -6,11 +6,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2017ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2017ResearchPaper.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017ResearchPaper.pdf');"
 
 				}
 			]
@@ -21,7 +21,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2016ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2016ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"VISIT PAGE",
@@ -29,7 +29,7 @@
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2016ResearchPaper.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2016ResearchPaper.pdf');"
 				}
 			]
 		},
@@ -39,11 +39,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2015ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2015ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":"window.location.assign('akshathjain.github.io/assets/2015ResearchPaper.pdf');"
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2015ResearchPaper.pdf');"
 				}
 			]
 		}
