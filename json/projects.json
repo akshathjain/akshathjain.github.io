@@ -92,12 +92,12 @@
 		},
 		{
 			"title":"Literatim",
-			"description":"",
+			"description":"Literatim is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
 			"buttons":[]
 		},
 		{
 			"title":"Code One Website",
-			"description":"",
+			"description":"During the 2016 – 2017 school, I founded an organization called Code One. The organization is designed to increase computer science exposure at the middle school level by offering programming classes around my community. One of the responsibilities that I had was creating a website that would serve as a landing page with logistical information about the program.",
 			"buttons":[
 				{
 					"title":"VISIT SITE",
