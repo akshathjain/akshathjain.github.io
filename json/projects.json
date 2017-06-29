@@ -6,11 +6,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.alert('coming soon!');"
+					"onclick":"window.location.href('akshathjain.github.io/assets/2017ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":""
+					"onclick":"window.location.href('akshathjain.github.io/assets/2017ResearchPaper.pdf');"
 
 				}
 			]
@@ -21,15 +21,15 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":""
+					"onclick":"window.location.href('akshathjain.github.io/assets/2016ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"VISIT PAGE",
-					"onclick":""
+					"onclick":"window.location.href('https://www.googlesciencefair.com/projects/en/2016/55a32a740acf240eba0a73e976f3c4241184401876667d1fb1b3d3f3584d1594');"
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":""
+					"onclick":"window.location.href('akshathjain.github.io/assets/2016ResearchPaper.pdf');"
 				}
 			]
 		},
@@ -43,7 +43,7 @@
 				},
 				{
 					"title":"DOWNLOAD RESEARCH PAPER",
-					"onclick":""
+					"onclick":"window.location.href('akshathjain.github.io/assets/2015ResearchPaper.pdf');"
 				}
 			]
 		}
