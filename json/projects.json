@@ -118,7 +118,12 @@
 		{
 			"title":"Optical Character Recognition Algorithm",
 			"description":"",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW PRESENTATION",
+					"onclick":"window.location.assign('https://akshathjain.github.io/assets/OCRPresentation.pdf');"
+				}
+			]
 		},
 		{
 			"title":"Word Search Solver and Generator",

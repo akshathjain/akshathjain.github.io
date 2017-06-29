@@ -1,3 +1,9 @@
+/*
+Name: Akshath Jain
+Date: 6/29/17
+Purpose: scripts for project.html, includes a "layout inflator" to automatically update the site based on a json file"
+*/
+
 $(document).ready(function(){
 	
 	//load JSON
