@@ -62,7 +62,7 @@
 	"programmingProjects":[
 		{
 			"title":"DrawBoard: A Handwriting Recognition Algorithm",
-			"description":"",
+			"description":"DrawBoard is a handwriting recognition algorithm implemented in Java. The program uses a Java Swing GUI that allows the user to write letters or words which is then identified by the computer using an artificial neural network that I designed.",
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
@@ -72,7 +72,7 @@
 		},
 		{
 			"title":"Pittsburgh Forensics Institute Website",
-			"description":"",
+			"description":"During the summer of 2017, I was responsible for organizing, running, and teaching at Pittsburgh Forensics Institute, which is a Speech &amp; Debate camp for the greater Pittsburgh Area. One of my responsibilities was to develop a new website to replace the old one. This site utilizes dynamic elements in order to automatically update key data using JSON and JavaScript.",
 			"buttons":[
 				{
 					"title":"VISIT SITE",
@@ -82,7 +82,7 @@
 		},
 		{
 			"title":"VIRtual eTracker",
-			"description":"",
+			"description":"VIRtual eTracker is a “proof-of-concept” product designed to monitor a building’s energy consumption by plugging into a wall outlet. This device then uses an Arduino to interface with a computer, which can either use WiFi or Bluetooth to connect to a smartphone to display power consumption data.",
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
