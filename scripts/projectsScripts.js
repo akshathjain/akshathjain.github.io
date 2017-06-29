@@ -6,9 +6,11 @@ $(document).ready(function(){
 		//console.log(data.researchProjects.length);
 
 		//inflate research projects	
-		layoutInflator(data.researchProjects, "research-project-layout", "research-project-container");
+		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container");
 
-		//inflate all projects
+		//inflate programming projects
+		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container");
+
 		//inflate clubs/organizations
 	});
 

@@ -61,8 +61,49 @@
 	],
 	"programmingProjects":[
 		{
-			"title":"",
-			"description":""
+			"title":"Handwriting Recognition Algorithm",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Pittsburgh Forensics Institute Website",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"VIRtual eTracker",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Literatim",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Code One Website",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Student Planner",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Optical Character Recognition Algorithm",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Word Search Solver and Generator",
+			"description":"",
+			"buttons":[]
+		},
+		{
+			"title":"Calculator X",
+			"description":"",
+			"buttons":[]
 		}
 	],
 	"cos":[
