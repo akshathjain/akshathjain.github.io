@@ -2,30 +2,20 @@
 <html>
 <head>
 	<title>Akshath Jain</title>
+	<link rel="shortcut icon" type="image/png" href="images/avatar.png">
 
 	<!--MDL resources-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-teal.min.css" />
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<script type="text/javascript">
-		var changeHeaderName = function(name){
-			document.getElementById("pageName").innerHTML = name;
-		}
-
-		$(document).ready(function(){
-			$("#homeNavLink").click(function(){
-				$.get("home.html", function(data, status, xhr){
-					alert(status);
-					$("#pageContent").html(data);
-				});
-			});
-		});
-	</script>
+	<!-- custom resources -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" src="scripts/scripts.js"></script>
 </head>
 
 <body>
@@ -34,7 +24,7 @@
 		<!-- header -->
 		<header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-900">
 			<div class="mdl-layout__header-row">
-				<span id="pageName" class="mdl-layout-title">Home</span>
+				<span id="pageName" class="mdl-layout-title">Contact</span>
 			</div>
 		</header>
 
@@ -54,40 +44,41 @@
 
 			<!-- drawer nav links -->
 			<nav class="mdl-navigation mdl-js-ripple-effect">
-				<a id="homeNavLink" class="mdl-navigation__link" href="#home" onclick="changeHeaderName('Home')">
+				<a id="homeNavLink" class="mdl-navigation__link" href="index.html">
 					<img class="nav-drawer-list-image" src="images/home.png">
 					Home
 				</a>
-				<a class="mdl-navigation__link" href="#projects" onclick="changeHeaderName('Projects')">
+				<a class="mdl-navigation__link" href="projects.html">
 					<img class="nav-drawer-list-image" src="images/projects.png">
 					Projects
 				</a>
-				<a class="mdl-navigation__link" href="#codeone" onclick="changeHeaderName('Code One')">
+				<a class="mdl-navigation__link" href="codeone.html">
 					<img class="nav-drawer-list-image" src="images/codeone.png">
 					Code One
 				</a>
-				<a class="mdl-navigation__link" href="#contact" onclick="changeHeaderName('Contact')">
+				<a class="mdl-navigation__link" href="contact.html">
 					<img class="nav-drawer-list-image" src="images/contact.png">
 					Contact
 				</a>
 			</nav>
 		</div>
 
+		
 		<!-- content goes here (footer inside of this)-->
 		<main class="mdl-layout__content">
-			
+
 			<!--CONTACT SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
-				
+
 			</div>
 
 
+			<!-- FOOTER -->
+			<footer class="mdl-mini-footer">
+				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
+			</footer>
 		</main>
 
-		<!-- FOOTER -->
-		<footer class="mdl-mini-footer">
-			<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
-		</footer>
 	</div>
 </body>
 </html>
