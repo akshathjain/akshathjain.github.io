@@ -6,15 +6,16 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017ScienceFairPresentation.pdf');"
+					"nclick":"window.location.assign('http://akshathjain.com/assets/2017ScienceFairPresentation.pdf');"
 				},
 				{
+				
 					"title":"VIEW RESEARCH PAPER",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017ResearchPaper.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2017ResearchPaper.pdf');"
 				},
 				{
 					"title":"VIEW DATA BOOK",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2017DataBook.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2017DataBook.pdf');"
 				}
 			]
 		},
@@ -24,7 +25,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2016ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2016ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"VISIT PAGE",
@@ -32,11 +33,11 @@
 				},
 				{
 					"title":"VIEW RESEARCH PAPER",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2016ResearchPaper.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2016ResearchPaper.pdf');"
 				},
 				{
 					"title":"VIEW DATA BOOK",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2016DataBook.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2016DataBook.pdf');"
 				}
 			]
 		},
@@ -46,15 +47,15 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2015ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2015ScienceFairPresentation.pdf');"
 				},
 				{
 					"title":"VIEW RESEARCH PAPER",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2015ResearchPaper.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2015ResearchPaper.pdf');"
 				},
 				{
 					"title":"VIEW DATA BOOK",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/2015DataBook.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2015DataBook.pdf');"
 				}
 			]
 		}
@@ -66,7 +67,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/DrawBoardPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/DrawBoardPresentation.pdf');"
 				}
 			]
 		},
@@ -86,7 +87,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/VirtualEtrackerPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/VirtualEtrackerPresentation.pdf');"
 				}
 			]
 		},
@@ -121,7 +122,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('https://akshathjain.github.io/assets/OCRPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/OCRPresentation.pdf');"
 				}
 			]
 		},
