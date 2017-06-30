@@ -95,7 +95,7 @@ p{
 }
 
 .home-me-image{
-	height: 355px; 
+	height: 375px; 
 	/*background-image: url('images/me.jpg');*/ /*implemented directly into the style of the div b/c it only works that way*/
 	background-position: center;
 	background-size: cover;
