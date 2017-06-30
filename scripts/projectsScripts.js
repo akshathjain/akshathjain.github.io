@@ -9,16 +9,17 @@ $(document).ready(function(){
 	//load JSON
 	$.getJSON('https://akshathjain.github.io/json/projects.json', function(data){
 
-		//inflate research projects	
-		data.researchProjects.sort(function(a,b){
+		//alphabetical sort
+		var sortParameters = function(a,b){
 			return a.title.localeCompare(b.title);
-		});
+		}
+
+		//inflate research projects	
+		data.researchProjects.sort(sortParameters);
 		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container");
 
 		//inflate programming projects
-		data.programmingProjects.sort(function(a,b){
-			return a.title.localeCompare(b.title);
-		});
+		data.programmingProjects.sort(sortParameters);
 		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container");
 
 		//inflate clubs/organizations
