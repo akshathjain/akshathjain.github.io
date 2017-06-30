@@ -77,7 +77,7 @@ p{
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 18px;
-	padding-bottom: 18px;*/
+	padding-bottom: 18px;
 	color: #424242;
 }
 
@@ -95,10 +95,10 @@ p{
 }
 
 .home-me-image{
-	background-image: url("images/me.JPG");
+	height: 355px; 
+	/*background-image: url('images/avatar.png');*/ /*implemented directly into the style of the div b/c it only works that way*/
+	background-position: center;
 	background-size: cover;
-	height: 355px;
-	margin: auto;
 }
 
 .material-icons.icon-style { 
