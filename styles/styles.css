@@ -98,6 +98,10 @@ p{
 	color: #01579B; 
 }
 
+.material-icons.huge{
+	font-size: 80px;
+}
+
 .bold{
 	font-weight: bold;
 }
