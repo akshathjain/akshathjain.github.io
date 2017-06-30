@@ -17,12 +17,13 @@ p{
 }
 
 
-.mdl-layout-title{
-	color: #757575;
+.mdl-layout__title{
+	margin-bottom: 16px;
 }
 
 .avatar{
-	margin-top: 10px;
+	margin-top: 16px; 
+	margin-bottom: 32px;
 	width: 160px;
 	height: auto;
 	border-radius: 50%;
