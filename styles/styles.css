@@ -46,6 +46,13 @@ p{
 	margin-bottom: 90px;
 }
 
+.card-container-contact{
+	max-width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
 .card-container-projects-big{
 	width: 80%;
 	margin: auto; /*center align*/
