@@ -88,7 +88,6 @@ p{
 .card-text-container h3{
 	font-size: 20px;
 	margin-bottom: 10px;
-	margin-top: -8px;
 }
 
 .card-text-container p{
@@ -156,4 +155,16 @@ p{
 	background-color: rgba(0,0,0,0.1);
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
+}
+
+.homeScreenH3{
+	margin-top: -8px;
+}
+
+.homeScreenP{
+	margin-top: -8px;
+}
+
+.mdl-cell-homescreen{
+	padding: 10px;
 }
