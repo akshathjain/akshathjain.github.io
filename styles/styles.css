@@ -47,10 +47,12 @@ p{
 }
 
 .card-container-contact{
+	width: wrap;
 	max-width: 80%;
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 90px;
+	padding: 20px;
 }
 
 .card-container-projects-big{
@@ -125,3 +127,6 @@ p{
 	cursor: pointer;
 }
 
+.text-center{
+	text-align: center;
+}
