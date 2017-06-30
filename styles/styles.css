@@ -95,7 +95,9 @@ p{
 }
 
 .home-me-image{
-	max-width: 100%;
+	background-image: url("images/me.JPG");
+	background-size: cover;
+	height: 355px;
 	margin: auto;
 }
 
