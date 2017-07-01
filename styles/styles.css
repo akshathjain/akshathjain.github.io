@@ -50,9 +50,9 @@ p{
 
 @media only screen and (max-device-width: 480px){
 	.card-container-home{
-		width: 80%;
+		width: 82%;
 		margin: auto;
-		margin-top: 9%;
+		margin-top: 10%;
 		margin-bottom: 90px;
 	}
 }
