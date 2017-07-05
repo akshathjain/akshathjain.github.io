@@ -6,7 +6,7 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"nclick":"window.location.assign('http://akshathjain.com/assets/2017ScienceFairPresentation.pdf');"
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2017ScienceFairPresentation.pdf');"
 				},
 				{
 				
