@@ -213,3 +213,9 @@ p{
 .mdl-cell-homescreen{
 	padding: 10px;
 }
+
+.footer-bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
