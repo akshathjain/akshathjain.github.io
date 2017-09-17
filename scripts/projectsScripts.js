@@ -22,7 +22,10 @@ $(document).ready(function(){
 		data.programmingProjects.sort(sortParameters);
 		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container");
 
-		//inflate clubs/organizations
+		//TODO - inflate clubs/organizations
+
+		//call the footer resizer function to update status after content has been populated
+		footerResizer();
 	});
 
 });

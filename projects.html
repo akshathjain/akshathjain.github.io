@@ -21,6 +21,7 @@
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
 	<script type="text/javascript" src="scripts/projectsScripts.js"></script>
+	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 
 	<!-- google analytics tracking info -->
 	<script>
@@ -36,7 +37,7 @@
 
 </head>
 
-<body>
+<body onresize="footerResizer()">
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
@@ -127,10 +128,9 @@
 
 
 			<!-- FOOTER -->
-			<footer class="mdl-mini-footer">
+			<footer class="mdl-mini-footer" id="footer">
 				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
 			</footer>
-
 		</main>
 
 	</div>
