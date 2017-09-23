@@ -68,6 +68,10 @@
 				{
 					"title":"VIEW PRESENTATION",
 					"onclick":"window.location.assign('http://akshathjain.com/assets/DrawBoardPresentation.pdf');"
+				},
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/DrawBoard');"
 				}
 			]
 		},
