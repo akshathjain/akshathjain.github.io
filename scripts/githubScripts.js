@@ -10,7 +10,17 @@ $(document).ready(function(){
 	retrieveGithubData('https://api.github.com/users/akshathjain/repos', function(){
 		var response = JSON.parse(this.responseText);
 		console.log(response);
-		layoutInflator(response, 'open-source-projects-layout', 'open-source-projects-container');
+		
+		//bind data to layout
+		layoutInflator(response, 'open-source-projects-layout', 'open-source-projects-container', function(info, index, layout){
+			layout.onclick = function(){ window.location.assign("https://github.com/akshathjain/" + info[index].name); };
+			var title = layout.getElementsByTagName("p")[0]	;
+			var description = layout.getElementsByTagName("span")[1];
+
+			title.innerHTML = info[index].name;
+			description.innerHTML = info[index].description;
+			console.log(info[index].url);
+		});
 	});
 
 	
@@ -31,11 +41,7 @@ function layoutInflator(data, template, holder, binder){
 		var layoutClone = layout.cloneNode(true);
 		layoutClone.id = template + "-" + i;
 
-		var title = layoutClone.getElementsByTagName("p")[0]	;
-		var description = layoutClone.getElementsByTagName("span")[1];
-
-		title.innerHTML = data[i].name;
-		description.innerHTML = data[i].description;
+		binder(data, i, layoutClone);
 
 		document.getElementById(holder).appendChild(layoutClone);
 	}
