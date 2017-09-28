@@ -40,7 +40,7 @@ $(document).ready(function(){
 			description.innerHTML = new Date(response[i].created_at).toDateString() + " – " + response[i].repo.name;
 		});
 
-		footerResizer()
+		footerResizer();
 	});
 	
 
