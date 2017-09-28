@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Akshath Jain</title>
+	<title>Github – Akshath Jain</title>
 	<link rel="shortcut icon" type="image/png" href="images/avatar.png">
 
 	<!-- meta tags -->
@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Akshath Jain">
 	<meta name="description" content="Hi, I'm Akshath Jain. Welcome to my website! I'm an avid Android Developer, programmer, and artificial intelligence aficionado. I'm currently a senior at North Allegheny Senior High School, and I enjoy running and playing tennis. Feel free to take a look around my site and view some of the projects that I've done!">
-	<meta name="keywords" content="Akshath, Jain, Akshath Jain, akshathjain, North, Allegheny, North Allegheny, Computer Club, Speech and Debate, Debate, public forum, pf, Code One, projectcodeone, PFI, Pittsburgh Forensics Institute, Machine Learning, AI, Artificial Intelligence, Student Planner, Calculator X, DrawBoard, Draw Board, OCR, optical character recognition, biography, bio, about, information, student, Leap, science fair, PRSEF, PJAS">
+	<meta name="keywords" content="Akshath, Jain, Akshath Jain, akshathjain, github">
 
 	<!--MDL resources-->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" type="text/css">
@@ -20,6 +20,7 @@
 
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" src="scripts/githubScripts.js"></script>
 	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 
 	<!-- google analytics tracking info -->
@@ -31,18 +32,17 @@
 
 		ga('create', 'UA-102002382-1', 'auto');
 		ga('send', 'pageview');
-
 	</script>
 
 </head>
-
 <body onresize="footerResizer()">
+	
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
 		<header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-900">
 			<div class="mdl-layout__header-row">
-				<span id="pageName" class="mdl-layout-title">Home</span>
+				<span id="pageName" class="mdl-layout-title">Github</span>
 			</div>
 		</header>
 
@@ -84,26 +84,35 @@
 			
 			<!--HOME SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
-				<div class="card-container-home">
-					<div class="card">
-						<div class="home-me-image" style="background-image: url('images/me.JPG');"></div>
-						<div class="mdl-grid card-text-container">
-							<div class="mdl-cell mdl-cell-homescreen">
-								<i class="material-icons icon-style">polymer</i>
-								<h3 class="homeScreenH3">Welcome</h3>
-								<p class="homeScreenP">Hi, I'm Akshath Jain. Welcome to my website! I'm an avid Android Developer, programmer, and artificial intelligence aficionado. I'm currently a senior at North Allegheny Senior High School, and I enjoy running and playing tennis. Feel free to take a look around my site and view some of the projects that I've done!</p>
-							</div>
-							<div class="mdl-cell mdl-cell-homescreen clickable" onclick="window.location.assign('projects.html');">
-								<i class="material-icons icon-style">folder</i>
-								<h3 class="homeScreenH3">Projects</h3>
-								<p class="homeScreenP">Feel free to take a look at some of the projects that I've done over the years. They range from Android applications to machine learning to clubs and organizations that I've started up. Get started here!</p>
-							</div>
-							<div class="mdl-cell mdl-cell-homescreen clickable" onclick="window.location.assign('contact.html');">
-								<i class="material-icons icon-style">contacts</i>
-								<h3 class="homeScreenH3">Contact</h3>
-								<p class="homeScreenP">Have any questions, comments, or concerns? Feel free to contact me at anytime!</p>
-							</div>
-						</div>
+
+				<!-- open source projects -->
+				<div>
+					<h3 class="section-header"><center>Open Source Projects</center></h3>
+					<div class="card card-text-container card-container-github">
+						<ul class="mdl-list" id="open-source-projects-container">
+							<li class="clickable mdl-list__item mdl-list__item--three-line" id="open-source-projects-layout">
+								<span class="mdl-list__item-primary-content">
+									<p id="open-source-projects-title">Title</p>
+									<p><span class="mdl-list__item-text-body" id="open-source-projects-description">Description</span></p>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- github activity -->
+				<div>
+					<h3 class="section-header"><center>Github Activity</center></h3>
+					<div class="card card-text-container card-container-github">
+						<ul class="mdl-list" id="github-activity-container">
+							<li class="clickable mdl-list__item mdl-list__item--three-line" id="github-activity-layout">
+								<span style="overflow: hidden; text-overflow: ellipsis;" class="mdl-list__item-primary-content">
+									<i class="material-icons mdl-list__item-icon" id="icon"></i>
+									<p style="overflow: hidden; text-overflow: ellipsis;" id="github-activity-title">Title</p>
+									<p style="overflow: hidden; text-overflow: ellipsis; margin-left: 56px"><span class="mdl-list__item-text-body" id="github-activity-description">Description</span></p>
+								</span>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -111,9 +120,9 @@
 
 			<!-- FOOTER -->
 			<footer class="mdl-mini-footer" id="footer">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
+				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
 			</footer>
 		</main>
 	</div>
+
 </body>
-</html>
