@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 			var icon = layout.getElementsByTagName("i")[0];
 			var title = layout.getElementsByTagName("p")[0];
-			var description = layout.getElementsByTagName("span")[1];
+			var description = layout.getElementsByTagName("p")[1];
 
 			if(response[i].type == "PushEvent"){
 				title.innerHTML = response[i].payload.commits[0].message;

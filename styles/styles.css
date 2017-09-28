@@ -228,3 +228,10 @@ p{
 	bottom: 0;
 	width: 100%;
 }
+
+.ellipse-text{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 80%;
+}
