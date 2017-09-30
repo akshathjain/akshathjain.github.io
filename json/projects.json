@@ -144,6 +144,16 @@
 					"onclick":"window.location.assign('https://play.google.com/store/apps/details?id=com.aceindustries.calculator');"
 				}
 			]
+		},
+		{
+			"title":"HackNA Website",
+			"description":"During the 2017 - 2018 school year, I founded and directed HackNA, a high school hackathon for the Greater Pittsburgh Area. Hosted by North Allegheny, HackNA allows more middle and high schools to become interested in computer science and robotics at an earlier age. One of my responsibilities for this event was to create the website, which would serve as the event's landing page.",
+			"buttons":[
+				{
+					"title":"VISIT SITE",
+					"onclick":"window.location.assign('http://hackna.org');"
+				}
+			]
 		}
 	]
 }
