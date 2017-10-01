@@ -34,7 +34,6 @@ $(document).ready(function(){
 	//get the github activity data
 	retrieveGithubData('https://api.github.com/users/akshathjain/events', function(){
 		var response = JSON.parse(this.responseText);
-		console.log(response);
 
 		layoutInflator(response, 'github-activity-layout', 'github-activity-container', function(data, i, layout){
 			layout.onclick = function(){ window.location.assign("https://github.com/" + data[i].repo.name); };
