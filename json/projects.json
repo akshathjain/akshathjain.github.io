@@ -98,7 +98,12 @@
 		{
 			"title":"Literatim",
 			"description":"Literatim is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/literatim');"
+				}
+			]
 		},
 		{
 			"title":"Code One Website",
