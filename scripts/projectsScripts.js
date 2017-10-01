@@ -24,6 +24,12 @@ $(document).ready(function(){
 
 		//TODO - inflate clubs/organizations
 
+		//turn off the spinners
+		var spinners = document.getElementsByClassName("mdl-spinner mdl-js-spinner is-active");
+		for (var i = 0; i < spinners.length; i++){
+			spinners[i].style.display = "none";
+		}
+
 		//call the footer resizer function to update status after content has been populated
 		footerResizer();
 	});
