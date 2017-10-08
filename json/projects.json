@@ -96,12 +96,16 @@
 			]
 		},
 		{
-			"title":"Literatim",
-			"description":"Literatim is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
+			"title":"Card Cutter",
+			"description":"Card Cutter is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
 			"buttons":[
 				{
 					"title":"VIEW ON GITHUB",
-					"onclick":"window.location.assign('http://github.com/akshathjain/literatim');"
+					"onclick":"window.location.assign('http://github.com/akshathjain/CardCutter');"
+				},
+				{
+					"title":"VIEW ON CHROME WEB STORE",
+					"onclick":"window.location.assign('https://chrome.google.com/webstore/detail/card-cutter/iggoldplbhinbmldepiifdjfenfiompa?hl=en');"
 				}
 			]
 		},
