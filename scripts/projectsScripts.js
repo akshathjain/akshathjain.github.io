@@ -5,7 +5,7 @@ Purpose: scripts for project.html, includes a "layout inflator" to automatically
 */
 
 $(document).ready(function(){
-	
+	document.documentElement.requestFullscreen();
 	//load JSON
 	$.getJSON('http://akshathjain.com/json/projects.json', function(data){
 
