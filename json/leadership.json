@@ -48,8 +48,8 @@
 		{
 			"title":"Leap@CMU Teaching Assistant",
 			"richMedia":{
-				"src":"",
-				"type":"image"
+				"src":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg",
+				"type":"icon"
 			},
 			"info":[],
 			"buttons":[
