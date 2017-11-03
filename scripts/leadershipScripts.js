@@ -13,12 +13,13 @@ $(document).ready(function(){
 
 		layoutInflator(response.leadership, 'leadership-card-layout', 'leadership-card-container', function(data, i, layout){
 			var title = layout.getElementsByTagName("h3")[0];
-			var richMedia = layout.getElementsByTagName('img')[0];
+			var richMedia = layout.getElementsByClassName('leadership-media')[0];
 			var infoList = layout.getElementsByTagName("ul")[0];
 			var listItem = infoList.getElementsByTagName("li")[0];
 
 			title.innerHTML = data[i].title;
 			richMedia.src = data[i].richMedia;
+			if(data[i].richMedia.type)
 
 			for(var j = 0; j < data[i].info.length; j++){
 				var listLayout = listItem.cloneNode(true);
