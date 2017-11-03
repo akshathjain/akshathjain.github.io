@@ -12,16 +12,16 @@
 					"content":"After noticing a lack of introductory computer science opportunities and programming competitions in the Pittsburgh area, a friend and I co-founded HackNA—a twelve-hour school hackathon taking place at my high school. A hackathon is a competition during which teams design, develop, and build software or hardware hacks (e.g. websites, robots, Android/iOS apps) on site and compete to win sponsored prizes and awards. The event, on December 16, 2017, plans on bringing together about 350 middle and high school students from schools across Pittsburgh in order to foster a high school tech community. Moreover, the event is designed so that absolutely no prior experience is necessary! We’ll be providing mentor expertise and optional workshops to help beginners get started and experts excel."
 				},
 				{
-					"title":"Number of participants",
-					"content":"We expect between 300 and 350"
-				},
-				{
 					"title":"Date",
 					"content":"December 16, 2017"
 				},
 				{
 					"title":"Location",
 					"content":"North Allegheny Senior High School"
+				},
+				{
+					"title":"Number of participants",
+					"content":"We expect between 300 and 350"
 				}
 			],
 			"buttons":[
@@ -103,6 +103,10 @@
 				{
 					"title":"Description",
 					"content":"During the summer of 2017, I was elected to be an organizer for Pittsburgh Forensics Institute (PFI). Held at the University of Pittsburgh, PFI is a summer Speech & Debate camp open to all middle and high school students in the Greater Pittsburgh Area. My role as organizer included key responsibilities such as creating a website, marketing, communicating with Pitt, coordinating instructors, and teaching Public Forum Debate. Intended to serve as a fundraiser for my team’s Speech & Debate team, PFI helped raise nearly $15,000 this past summer!"
+				},
+				{
+					"title":"Date",
+					"content":"July 31st, 2017 to August 11th, 2017"
 				},
 				{
 					"title":"Location",
