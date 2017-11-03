@@ -22,10 +22,7 @@ $(document).ready(function(){
 		});
 
 		//turn off the spinners
-		var spinners = document.getElementsByClassName("mdl-spinner mdl-js-spinner is-active");
-		for (var i = 0; i < spinners.length; i++){
-			spinners[i].style.display = "none";
-		}
+		turnOffSpinners(document);
 
 		//deterimine footer placement
 		footerResizer();

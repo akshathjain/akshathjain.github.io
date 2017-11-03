@@ -21,10 +21,7 @@ $(document).ready(function(){
 		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container", dataBinder);
 
 		//turn off the spinners
-		var spinners = document.getElementsByClassName("mdl-spinner mdl-js-spinner is-active");
-		for (var i = 0; i < spinners.length; i++){
-			spinners[i].style.display = "none";
-		}
+		turnOffSpinners(document);
 
 		//call the footer resizer function to update status after content has been populated
 		footerResizer();

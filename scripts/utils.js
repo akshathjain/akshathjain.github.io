@@ -18,3 +18,11 @@ function layoutInflator(data, template, container, binder){
 	}
 	layout.style.display = "none"; //hide the layout template
 }
+
+//turn off the spinners
+function turnOffSpinners(doc){
+	var spinners = doc.getElementsByClassName("mdl-spinner mdl-js-spinner is-active");
+	for (var i = 0; i < spinners.length; i++){
+		spinners[i].style.display = "none";
+	}
+}
