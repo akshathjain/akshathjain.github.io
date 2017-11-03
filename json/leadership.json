@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"leadership":[
 		{
@@ -20,6 +21,13 @@
 				"src":"http://akshathjain.com/CodeOne/assets/favicon.png",
 				"type":"icon"
 			},
+=======
+{
+	"leadership":[
+		{
+			"title":"HackNA",
+			"richVisual": "http://projectcodeone.org/assets/favicon.png",
+>>>>>>> uncompleted-work
 			"info":[
 				{
 					"title":"Description",
@@ -37,6 +45,7 @@
 					"title":"Number of Instructors",
 					"content":"3 instructors per session"
 				}
+<<<<<<< HEAD
 			],
 			"buttons":[
 				{
@@ -56,11 +65,34 @@
 				{
 					"title":"Visit Website",
 					"link":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg"
+=======
+			]
+		},
+		{
+			"title":"Code One",
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+>>>>>>> uncompleted-work
 				}
 			]
 		},
 		{
 			"title":"Pittsburgh Forensics Institute",
+<<<<<<< HEAD
 			"richMedia":{
 				"src":"http://akshathjain.com/PFIWebsite/images/gavel.png",
 				"type":"icon"
@@ -85,3 +117,47 @@
 		}
 	]
 }
+=======
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				}
+			]
+		},
+		{
+			"title":"Hour of Code",
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				}
+			]
+		}
+	]
+}
+>>>>>>> uncompleted-work

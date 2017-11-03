@@ -62,25 +62,10 @@ $(document).ready(function(){
 
 });
 
-//function to request data from github api
+//function to request data from url
 function retrieveGithubData(url, onComplete){
 	var request = new XMLHttpRequest();
 	request.onload = onComplete;
 	request.open('get', url, true);
 	request.send();
-}
-
-//function to bind data to layout
-function layoutInflator(data, template, holder, binder){
-	//populate the data	
-	var layout = document.getElementById(template);
-	for(var i = 0; i < data.length; i++){
-		var layoutClone = layout.cloneNode(true);
-		layoutClone.id = template + "-" + i;
-
-		binder(data, i, layoutClone);
-
-		document.getElementById(holder).appendChild(layoutClone);
-	}
-	layout.style.display = "none"; //hide the layout template
 }

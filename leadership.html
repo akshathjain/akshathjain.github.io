@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Github – Akshath Jain</title>
+	<title>Leadership – Akshath Jain</title>
 	<link rel="shortcut icon" type="image/png" href="images/avatar.png">
 
 	<!-- meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Akshath Jain">
-	<meta name="description" content="Hi, I'm Akshath Jain. Welcome to my website! I'm an avid Android Developer, programmer, and artificial intelligence aficionado. I'm currently a senior at North Allegheny Senior High School, and I enjoy running and playing tennis. Feel free to take a look around my site and view some of the projects that I've done!">
-	<meta name="keywords" content="Akshath, Jain, Akshath Jain, akshathjain, github">
+	<meta name="description" content="">
+	<meta name="keywords" content="Akshath, Jain, Akshath Jain, akshathjain, North, Allegheny, North Allegheny, Computer Club, Speech and Debate, Debate, public forum, pf, Code One, projectcodeone, PFI, Pittsburgh Forensics Institute, Machine Learning, AI, Artificial Intelligence, Student Planner, Calculator X, DrawBoard, Draw Board, OCR, optical character recognition, biography, bio, about, information, student, Leap, science fair, PRSEF, PJAS">
 
 	<!--MDL resources-->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" type="text/css">
@@ -20,9 +20,9 @@
 
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
-	<script type="text/javascript" src="scripts/githubScripts.js"></script>
 	<script type="text/javascript" src="scripts/footerScripts.js"></script>
-	<script type="text/javascript" src="scripts/utils.js"></script>	
+	<script type="text/javascript" src="scripts/leadershipScripts.js"></script>
+	<script type="text/javascript" src="scripts/utils.js"></script>
 
 	<!-- google analytics tracking info -->
 	<script>
@@ -33,17 +33,18 @@
 
 		ga('create', 'UA-102002382-1', 'auto');
 		ga('send', 'pageview');
+
 	</script>
 
 </head>
+
 <body onresize="footerResizer()">
-	
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
 		<header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-900">
 			<div class="mdl-layout__header-row">
-				<span id="pageName" class="mdl-layout-title">GitHub</span>
+				<span id="pageName" class="mdl-layout-title">Leadership</span>
 			</div>
 		</header>
 
@@ -89,62 +90,36 @@
 			
 			<!--HOME SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
-
-				<!-- open source projects -->
-				<div>
-					<h3 class="section-header"><center>Public Repositories</center></h3>
-					<div class="card card-text-container card-container-github">
-						<center><div class="mdl-spinner mdl-js-spinner is-active"></div></center>
-						<ul class="mdl-list" id="open-source-projects-container">
-							<li class="clickable mdl-list__item mdl-list__item--three-line" id="open-source-projects-layout">
-								<span class="mdl-list__item-primary-content">
-									<p class="ellipse-text" id="open-source-projects-title"></p>
-									<p><span class="ellipse-text mdl-list__item-text-body" id="open-source-projects-description"></span></p>
-								</span>
-							</li>
-						</ul>
+				
+				<div id="leadership-card-container">
+					
+					<div class="card card-text-container card-container-leadership" id="leadership-card-layout">
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--5-col">
+								<center><div class="leadership-media"></div></center>
+							</div>
+							<div class="mdl-cell mdl-cell--7-col" style="padding: 0px 16px">
+								<h3 style="font-weight: bold;">Name</h3>
+								<ul class="mdl-list">
+									<li class="list-item">
+										<p class="list-title">Description</p>
+										<p class="list-content">Content</p>
+									</li>
+								</ul>
+								<p id="button-list"></p>
+							</div>
+						</div>
 					</div>
 				</div>
-
-				<!-- github activity -->
-				<div>
-					<h3 class="section-header"><center>Github Activity</center></h3>
-					<div class="card card-text-container card-container-github" id="github-card">
-						<center><div class="mdl-spinner mdl-js-spinner is-active"></div></center>
-						<ul class="mdl-list" id="github-activity-container">
-							<li class="clickable mdl-list__item mdl-list__item--three-line" id="github-activity-layout">
-								<span class="mdl-list__item-primary-content">
-									<i style="margin: 0px" class="material-icons mdl-list__item-icon" id="icon"></i>
-									<p class="ellipse-text" style="margin-left: 56px;" id="github-activity-title"></p>
-									<p class="ellipse-text" style="margin-left: 56px; font-size: 14px; color: #9c9c9c;" id="github-activity-description"></p>
-								</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<!-- script to resize the ellipse overflow width -->
-				<script type="text/javascript">
-					window.addEventListener("resize", widthHandler);
-					widthHandler();
-
-					function widthHandler(){
-						var width = document.getElementsByClassName('clickable mdl-list__item mdl-list__item--three-line')[1].offsetWidth;
-						var ellipses = document.getElementsByClassName('ellipse-text');
-						for(var i = 0; i < ellipses.length; i++){
-							ellipses[i].style.width = ((width - parseInt(window.getComputedStyle(ellipses[i]).marginLeft)) * .90) + "px";
-						}
-					}
-				</script>
 
 			</div>
 
 
 			<!-- FOOTER -->
-			<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
+			<footer class="mdl-mini-footer" id="footer">
+				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
 			</footer>
 		</main>
 	</div>
-
 </body>
+</html>

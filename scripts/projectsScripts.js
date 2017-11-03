@@ -7,7 +7,10 @@ Purpose: scripts for project.html, includes a "layout inflator" to automatically
 $(document).ready(function(){
 	//load JSON
 	$.getJSON('http://akshathjain.com/json/projects.json', function(data){
+<<<<<<< HEAD
 		console.log(data);
+=======
+>>>>>>> uncompleted-work
 		//alphabetical sort
 		var sortParameters = function(a,b){
 			return a.title.localeCompare(b.title);
@@ -21,6 +24,7 @@ $(document).ready(function(){
 		data.programmingProjects.sort(sortParameters);
 		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container");
 
+<<<<<<< HEAD
 		//TODO - inflate clubs/organizations
 
 		//turn off the spinners
@@ -29,6 +33,8 @@ $(document).ready(function(){
 			spinners[i].style.display = "none";
 		}
 
+=======
+>>>>>>> uncompleted-work
 		//call the footer resizer function to update status after content has been populated
 		footerResizer();
 	});
@@ -51,7 +57,7 @@ function layoutInflator(data, template, holder){
 
 		if(data[i].buttons != null){
 			for(var j = 0; j < data[i].buttons.length; j++){
-				buttonList.innerHTML += '<button class="material-button"' + 'onclick="' + data[i].buttons[j].onclick + '">' + data[i].buttons[j].title + '</button>'
+				buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-top:15px;"' + 'onclick="' + data[i].buttons[j].onclick + '">' + data[i].buttons[j].title + '</button>'
 				buttonList.innerHTML += "&nbsp;&nbsp"
 			}
 		}
