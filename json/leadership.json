@@ -68,11 +68,28 @@
 				"src":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg",
 				"type":"icon"
 			},
-			"info":[],
+			"info":[
+				{
+					"title":"Description",
+					"content":"Leap@CMU is an intensive, seven-week summer camp for high school students. Held at Carnegie Mellon University, Leap allows students to explore computer science and mathematics in a fun and engaging environment. After participating in 2015, I returned as a Teaching Assistant (TA) in 2016 and 2017. As a TA, I directed and taught the Intermediate Programming track, which based in Java, explored concepts ranging from Object Oriented Programming and Recursion to Machine Learning and Data Mining."
+				},
+				{
+					"title":"Location",
+					"content":"Carnegie Mellon University"
+				},
+				{
+					"title":"Number of Students",
+					"content":"40"
+				}
+			],
 			"buttons":[
 				{
 					"title":"Visit Website",
 					"link":"https://www.cs.cmu.edu/~leap"
+				},
+				{
+					"title":"View Curriculum",
+					"link":"https://github.com/akshathjain/Leap2017"
 				}
 			]
 		},
