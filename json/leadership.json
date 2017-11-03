@@ -3,8 +3,8 @@
 		{
 			"title":"HackNA",
 			"richMedia":{
-				"src":"http://hackna.org/images/logo.svg",
-				"type":"logo"
+				"src":"http://akshathjain.com/HackNA/images/logo.svg",
+				"type":"icon"
 			},
 			"info":[],
 			"buttons":[]
@@ -53,7 +53,7 @@
 			"title":"Pittsburgh Forensics Institute",
 			"richMedia":{
 				"src":"http://akshathjain.com/PFIWebsite/images/gavel.png",
-				"type":"logo"
+				"type":"icon"
 			},
 			"info":[],
 			"buttons":[]
