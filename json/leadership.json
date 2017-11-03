@@ -16,14 +16,6 @@
 		},
 		{
 			"title":"Code One",
-			"richMedia": {
-				"src":"http://akshathjain.com/CodeOne/assets/favicon.png",
-				"type":"icon"
-			},
-{
-	"leadership":[
-		{
-			"title":"HackNA",
 			"richVisual": "http://projectcodeone.org/assets/favicon.png",
 			"info":[
 				{
@@ -61,27 +53,6 @@
 				{
 					"title":"Visit Website",
 					"link":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg"
-				}
-			]
-		},
-		{
-			"title":"Code One",
-			"info":[
-				{
-					"title":"Description",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
 				}
 			]
 		},
