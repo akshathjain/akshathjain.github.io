@@ -71,6 +71,19 @@ p{
 	margin-bottom: 40px;
 }
 
+.card-container-leadership{
+	width: 65%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 720px){
+	.card-container-leadership{
+		width: 85%;
+	}
+}
+
 .card-container-github{
 	width: 80%;
 	margin: auto; /*center align*/
@@ -225,4 +238,30 @@ p{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+
+.leadership-image{
+	width: 200px;
+	vertical-align: middle;
+}
+
+.list-item{
+	padding: 0px 0px 16px 0px;
+}
+
+.list-title{
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: .04em;
+	color: rgba(0,0,0,.87);
+}
+
+.list-content{
+	font-size: 14px !important;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 18px;
+	color: rgba(0,0,0,.54);
+	display: block;
+	padding: 0;
 }
