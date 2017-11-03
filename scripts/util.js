@@ -5,7 +5,7 @@ Purpose: file to store my layout inflator method for use across files w/o repeat
 */
 
 //function to bind data to layout
-function layoutInflator(data, template, holder, binder){
+function layoutInflator(data, template, container, binder){
 	//populate the data	
 	var layout = document.getElementById(template);
 	for(var i = 0; i < data.length; i++){
@@ -14,7 +14,7 @@ function layoutInflator(data, template, holder, binder){
 
 		binder(data, i, layoutClone);
 
-		document.getElementById(holder).appendChild(layoutClone);
+		document.getElementById(container).appendChild(layoutClone);
 	}
 	layout.style.display = "none"; //hide the layout template
 }

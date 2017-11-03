@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 });
 
-//function to request data from github api
+//function to request data from url
 function retrieveGithubData(url, onComplete){
 	var request = new XMLHttpRequest();
 	request.onload = onComplete;
