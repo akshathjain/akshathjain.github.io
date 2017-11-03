@@ -105,12 +105,12 @@
 					"content":"During the summer of 2017, I was elected to be an organizer for Pittsburgh Forensics Institute (PFI). Held at the University of Pittsburgh, PFI is a summer Speech & Debate camp open to all middle and high school students in the Greater Pittsburgh Area. My role as organizer included key responsibilities such as creating a website, marketing, communicating with Pitt, coordinating instructors, and teaching Public Forum Debate. Intended to serve as a fundraiser for my team’s Speech & Debate team, PFI helped raise nearly $15,000 this past summer!"
 				},
 				{
-					"title":"Number of Students",
-					"content":"Approximately 50"
-				},
-				{
 					"title":"Location",
 					"content":"University of Pittsburgh"
+				},
+				{
+					"title":"Number of Students",
+					"content":"Approximately 50"
 				}
 
 			],
@@ -120,7 +120,6 @@
 					"link":"http://pghforensics.org"
 				}
 			]
-
 		},
 		{
 			"title":"Hour of Code",
