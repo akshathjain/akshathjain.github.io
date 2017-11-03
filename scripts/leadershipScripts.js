@@ -6,12 +6,13 @@ Purpose: scripts for the leadership page
 
 $(document).ready(function(){
 
-	//load json
+	//load JSON
 	$.getJSON('http://akshathjain.com/json/leadership.json', function(response){
-
+		console.log(response);
 		layoutInflator(response.leadership, 'leadership-card-layout', 'leadership-card-layout-container', function(data, i, layout){
-			var richMedia = layout.getElementsByClassName('img');
-			console.log(richMedia);
+			console.log('getting here');
+			var richMedia = layout.getElementsByTagName('img');
+			console.log(richMedia[0]);
 
 		});
 
