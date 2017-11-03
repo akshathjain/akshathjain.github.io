@@ -7,7 +7,7 @@ Purpose: scripts for the leadership page
 $(document).ready(function(){
 
 	//load JSON
-	$.getJSON('https://raw.githubusercontent.com/akshathjain/akshathjain.github.io/master/json/leadership.json', function(response){
+	$.getJSON('http://akshathjain.com/json/leadership.json', function(response){
 		console.log(response.leadership);
 		console.log(document.getElementById('leadership-card-container'));
 
