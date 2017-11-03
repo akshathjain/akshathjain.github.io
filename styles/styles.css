@@ -157,54 +157,6 @@ p{
 	margin-bottom: 50px;
 }
 
-.material-button{
-	margin-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	height: 40px;
-	background: #2979FF;
-	color: #ffffff;
-	font-weight: bold;
-	letter-spacing: 0.3px;
-	font-size: 14px;
-	border:none;
-	border-radius: 2px;
-	box-shadow: 0px 2px 5px rgba(0,0,0,.25);
-	transition: 0.1s;
-	-webkit-transition: 0.1s;
-}
-
-.material-button:hover{
-	background-color: rgba(41, 121, 255, 0.85);
-	cursor: pointer;
-	transition: 0.1s;
-	-webkit-transition: 0.1s;
-}
-
-.material-button-white{
-	margin-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	height: 40px;
-	background: #FFFFFf;
-	color: #424242;
-	font-weight: bold;
-	letter-spacing: 0.3px;
-	font-size: 14px;
-	border:none;
-	border-radius: 2px;
-	box-shadow: 0px 2px 5px rgba(0,0,0,.25);
-	transition: 0.1s;
-	-webkit-transition: 0.1s;
-}
-
-.material-button-white:hover{
-	background-color: rgba(255, 255, 255, 0.9);
-	cursor: pointer;
-	transition: 0.1s;
-	-webkit-transition: 0.1s;
-}
-
 .text-center{
 	text-align: center;
 }
@@ -247,9 +199,30 @@ p{
 	}
 }
 
+/*empty class that does literally nothing*/
 .leadership-media{
-	width: 200px;
-	vertical-align: middle;
+	
+}
+
+.leadership-media-icon{
+	text-align: center;
+	width: 220px;
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.leadership-media-image{
+	text-align: center;
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.leadership-media-video{
+	min-height: 350px;
 }
 
 .list-item{

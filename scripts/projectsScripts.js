@@ -43,7 +43,7 @@ function layoutInflator(data, template, holder){
 
 		if(data[i].buttons != null){
 			for(var j = 0; j < data[i].buttons.length; j++){
-				buttonList.innerHTML += '<button class="material-button"' + 'onclick="' + data[i].buttons[j].onclick + '">' + data[i].buttons[j].title + '</button>'
+				buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-top:15px;"' + 'onclick="' + data[i].buttons[j].onclick + '">' + data[i].buttons[j].title + '</button>'
 				buttonList.innerHTML += "&nbsp;&nbsp"
 			}
 		}
