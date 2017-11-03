@@ -18,7 +18,7 @@ $(document).ready(function(){
 			var listItem = infoList.getElementsByTagName("li")[0];
 
 			title.innerHTML = data[i].title;
-			richMedia.src = data[i].richVisual;
+			richMedia.src = data[i].richMedia;
 
 			for(var j = 0; j < data[i].info.length; j++){
 				var listLayout = listItem.cloneNode(true);
