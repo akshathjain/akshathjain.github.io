@@ -112,7 +112,6 @@
 					"title":"Number of Students",
 					"content":"Approximately 50"
 				}
-
 			],
 			"buttons":[
 				{
@@ -127,7 +126,24 @@
 				"src":"https://www.youtube.com/embed/0CaICfJ9OLQ",
 				"type":"video"
 			},
-			"info":[],
+			"info":[
+				{
+					"title":"Description",
+					"content":"During my freshman year of high school, I helped organize and direct the Hour of Code event at my school on December 11, 2014. Bringing together 432 students, this event encouraged more participation in computer science by allowing participants to take time off class to learn to code through Code.org."
+				},
+				{
+					"title":"Date",
+					"content":"December 11, 2014"
+				},
+				{
+					"title":"Location",
+					"content":"North Allegheny Intermediate High School"
+				},
+				{
+					"title":"Number of participants",
+					"content":"432 Students"
+				}
+			],
 			"buttons":[]
 		}
 	]
