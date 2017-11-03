@@ -2,19 +2,88 @@
 	"leadership":[
 		{
 			"title":"HackNA",
-			"description":""
+			"richVisual": "http://projectcodeone.org/assets/favicon.png",
+			"info":[
+				{
+					"title":"Description",
+					"content":"Code One is an organization that I started to increase computer science exposure in my community by offering programming classes. So far, we have had sessions at Millvale Community Library and we plan to hold lessons at more locations in the future! Lessons first begin with Scratch, a simple drag and drop programming language designed to familiarize students with computer logic. Students then progress onto Python, a versatile language with easy-to-learn syntax."
+				},
+				{
+					"title":"Number of Sessions",
+					"content":"Between 8 and 10"
+				},
+				{
+					"title":"Number of Students",
+					"content":"Between 5 and 15"
+				},
+				{
+					"title":"Number of Instructors",
+					"content":"3 instructors per session"
+				}
+			]
 		},
 		{
 			"title":"Code One",
-			"description":""
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				}
+			]
 		},
 		{
 			"title":"Pittsburgh Forensics Institute",
-			"description":""
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				}
+			]
 		},
 		{
 			"title":"Hour of Code",
-			"description":""
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				},
+				{
+					"title":"",
+					"content":""
+				}
+			]
 		}
 	]
 }
