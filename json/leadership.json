@@ -7,7 +7,12 @@
 				"type":"icon"
 			},
 			"info":[],
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"Visit Website",
+					"link":"http://hackna.org"
+				}
+			]
 		},
 		{
 			"title":"Code One",
@@ -47,7 +52,12 @@
 				"type":"image"
 			},
 			"info":[],
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"Visit Website",
+					"link":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg"
+				}
+			]
 		},
 		{
 			"title":"Pittsburgh Forensics Institute",
@@ -56,7 +66,12 @@
 				"type":"icon"
 			},
 			"info":[],
-			"buttons":[]
+			"buttons":[
+				{
+					"title":"Visit Webiste",
+					"link":"http://pghforensics.org"
+				}
+			]
 
 		},
 		{
