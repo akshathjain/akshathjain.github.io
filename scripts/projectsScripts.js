@@ -14,11 +14,11 @@ $(document).ready(function(){
 
 		//inflate research projects	
 		data.researchProjects.sort(sortParameters);
-		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container");
+		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container", dataBinder);
 
 		//inflate programming projects
 		data.programmingProjects.sort(sortParameters);
-		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container");
+		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container", dataBinder);
 
 		//turn off the spinners
 		var spinners = document.getElementsByClassName("mdl-spinner mdl-js-spinner is-active");
@@ -30,18 +30,10 @@ $(document).ready(function(){
 		footerResizer();
 	});
 
-});
-
-function layoutInflator(data, template, holder){
-	//populate the data	
-	var layout = document.getElementById(template);
-	for(var i = 0; i < data.length; i++){
-		var layoutClone = layout.cloneNode(true);
-		layoutClone.id = template + "-" + i;
-
-		var title = layoutClone.getElementsByTagName("h3")[0]	;
-		var description = layoutClone.getElementsByTagName("p")[0];
-		var buttonList = layoutClone.getElementsByTagName("p")[1];
+	function dataBinder(data, i, layout){
+		var title = layout.getElementsByTagName("h3")[0];
+		var description = layout.getElementsByTagName("p")[0];
+		var buttonList = layout.getElementsByTagName("p")[1];
 
 		title.innerHTML = data[i].title;
 		description.innerHTML = data[i].description;
@@ -52,8 +44,5 @@ function layoutInflator(data, template, holder){
 				buttonList.innerHTML += "&nbsp;&nbsp"
 			}
 		}
-
-		document.getElementById(holder).appendChild(layoutClone);
 	}
-	layout.style.display = "none"; //hide the layout template
-}
+});
