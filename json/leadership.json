@@ -16,7 +16,10 @@
 		},
 		{
 			"title":"Code One",
-			"richVisual": "http://projectcodeone.org/assets/favicon.png",
+			"richMedia": {
+				"src":"http://projectcodeone.org/assets/favicon.png",
+				"type":"icon"
+			},	
 			"info":[
 				{
 					"title":"Description",
