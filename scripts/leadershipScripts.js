@@ -8,9 +8,6 @@ $(document).ready(function(){
 
 	//load JSON
 	$.getJSON('http://akshathjain.com/json/leadership.json', function(response){
-		console.log(response.leadership);
-		console.log(document.getElementById('leadership-card-container'));
-
 		layoutInflator(response.leadership, 'leadership-card-layout', 'leadership-card-container', function(data, i, layout){
 			var title = layout.getElementsByTagName("h3")[0];
 			var richMedia = layout.getElementsByClassName('leadership-media')[0];
