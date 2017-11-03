@@ -50,9 +50,9 @@ p{
 	margin-bottom: 90px;
 }
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-width: 720px){
 	.card-container-home{
-		width: 82%;
+		width: 90%;
 		margin: auto;
 		margin-top: 10%;
 		margin-bottom: 90px;
@@ -67,7 +67,7 @@ p{
 }
 
 .card-container-projects-big{
-	width: 80%;
+	width: 65%;
 	margin: auto; /*center align*/
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -78,12 +78,6 @@ p{
 	margin: auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
-}
-
-@media only screen and (max-width: 720px){
-	.card-container-leadership{
-		width: 85%;
-	}
 }
 
 .card-container-github{
@@ -98,6 +92,20 @@ p{
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 720px){
+	.card-container-projects-big{
+		width: 90%;
+	}
+
+	.card-container-leadership{
+		width: 85%;
+	}
+
+	.card-container-github{
+		width: 85%;
+	}
 }
 
 .card{
