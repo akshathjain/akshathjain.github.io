@@ -2,12 +2,19 @@
 	"leadership":[
 		{
 			"title":"HackNA",
-			"richMedia":"",
-			"info":[]
+			"richMedia":{
+				"src":"",
+				"type":"image"
+			},
+			"info":[],
+			"buttons":[]
 		},
 		{
 			"title":"Code One",
-			"richMedia": "images/codeoneFavicon.png",
+			"richMedia": {
+				"src":"images/codeoneFavicon.png",
+				"type":"image"
+			},
 			"info":[
 				{
 					"title":"Description",
@@ -25,51 +32,41 @@
 					"title":"Number of Instructors",
 					"content":"3 instructors per session"
 				}
+			],
+			"buttons":[
+				{
+					"title":"Visit Website",
+					"link":"http://projectcodeone.org"
+				}
 			]
+		},
+		{
+			"title":"Leap@CMU Teaching Assistant",
+			"richMedia":{
+				"src":"",
+				"type":"image"
+			},
+			"info":[],
+			"buttons":[]
 		},
 		{
 			"title":"Pittsburgh Forensics Institute",
-			"richMedia":"",
-			"info":[
-				{
-					"title":"Description",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				}
-			]
+			"richMedia":{
+				"src":"",
+				"type":"image"
+			},
+			"info":[],
+			"buttons":[]
+
 		},
 		{
 			"title":"Hour of Code",
-			"richMedia":"",
-			"info":[
-				{
-					"title":"Description",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				},
-				{
-					"title":"",
-					"content":""
-				}
-			]
+			"richMedia":{
+				"src":"",
+				"type":"video"
+			},
+			"info":[],
+			"buttons":[]
 		}
 	]
 }
