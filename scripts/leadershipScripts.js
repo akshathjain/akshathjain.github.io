@@ -43,7 +43,7 @@ $(document).ready(function(){
 			//deal with buttons
 			if(data[i].buttons != null){
 				for(var j = 0; j < data[i].buttons.length; j++){
-					buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-top:15px;"' + 'onclick="window.location.assign(\'' + data[i].buttons[j].link + '\');">' + data[i].buttons[j].title + '</button>'
+					buttonList.innerHTML += '<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent material-button"' + 'onclick="window.location.assign(\'' + data[i].buttons[j].link + '\');">' + data[i].buttons[j].title + '</button>'
 					buttonList.innerHTML += "&nbsp;&nbsp"
 				}
 			}

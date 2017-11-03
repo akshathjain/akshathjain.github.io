@@ -150,6 +150,10 @@ p{
 	font-size: 80px;
 }
 
+.material-button{
+	margin-top: 15px;
+}
+
 .bold{
 	font-weight: bold;
 }
