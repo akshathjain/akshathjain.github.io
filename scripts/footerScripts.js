@@ -22,5 +22,4 @@ function footerResizer(){
 	setInterval(function(){
 		document.getElementsByTagName("footer")[0].style.visibility = "visible";
 	}, 75);
-	
 }

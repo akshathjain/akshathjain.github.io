@@ -1,0 +1,12 @@
+{
+	"name":"Akshath Jain",
+	"short_name":"Akshath Jain",
+	"icons":[
+		{
+			"src":"images/avatar.png",
+			"sizes":"160x160",
+			"type":"image/png"
+		}
+	],
+	"display":"standalone"
+}
