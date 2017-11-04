@@ -5,6 +5,7 @@ Purpose: script to push footer to the bottom of the screen if the content doesn'
 */
 
 $(document).ready(function(){
+	window.scrollTo(0,1);
 	footerResizer();
 });
 
