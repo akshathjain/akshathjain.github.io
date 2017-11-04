@@ -139,16 +139,17 @@ p{
 }
 
 .card-text-container h3{
-	font-size: 20px;
+	font-size: 19px;
 	margin-bottom: 10px;
 }
 
 .card-text-container p{
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .home-me-image{
-	height: 375px; 
+	/*height: 375px; */
+	height: 40vh;
 	/*background-image: url('images/me.jpg');*/ /*implemented directly into the style of the div b/c it only works that way*/
 	background-position: center;
 	background-size: cover;
@@ -262,7 +263,7 @@ p{
 }
 
 .list-content{
-	font-size: 14px !important;
+	font-size: 15px !important;
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 18px;
