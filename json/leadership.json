@@ -63,6 +63,28 @@
 			]
 		},
 		{
+			"title":"Cross Country",
+			"richMedia":{
+				"src":"https://pbs.twimg.com/profile_images/804065777020260355/7LEe2rO3.jpg",
+				"type":"icon"
+			},
+			"info":[
+				{
+					"title":"Description",
+					"content":"As a runner for my school’s Cross Country team for three years, I became Varsity Co-Captain of the boy’s team this past season. My responsibilities as Co-Captain included leading almost a hundred teammates during practice and meets as well as helping newer members of the team become accustomed to the intense workload the sport carries."
+				},
+				{
+					"title":"Years on the team",
+					"content":"3 years"
+				},
+				{
+					"title":"Number of runners",
+					"content":"79 runners"
+				}
+			]	
+
+		},
+		{
 			"title":"Leap@CMU Teaching Assistant",
 			"richMedia":{
 				"src":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg",
@@ -106,7 +128,7 @@
 				},
 				{
 					"title":"Dates",
-					"content":"July 31st, 2017 to August 11th, 2017"
+					"content":"July 31, 2017 to August 11, 2017"
 				},
 				{
 					"title":"Location",
@@ -145,7 +167,7 @@
 				},
 				{
 					"title":"Number of Participants",
-					"content":"432 Students"
+					"content":"432 students"
 				}
 			],
 			"buttons":[]
