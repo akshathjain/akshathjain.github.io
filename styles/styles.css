@@ -217,10 +217,19 @@ p{
 	width: 80%;
 }
 
+/*used on the leadership page for event information*/
+.variable-cell-padding{
+	padding: 0px 16px;
+}
+
 @media only screen and (max-width: 1100px){
 	.mdl-cell{
 		display: block;
 		width: 100%;
+	}
+
+	.variable-cell-padding{
+		padding: 0px;
 	}
 }
 
