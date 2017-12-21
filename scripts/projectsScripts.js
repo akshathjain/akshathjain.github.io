@@ -6,7 +6,7 @@ Purpose: scripts for project.html, includes a "layout inflator" to automatically
 
 $(document).ready(function(){
 	//load JSON
-	$.getJSON('http://akshathjain.com/json/projects.json', function(data){
+	$.getJSON('https://akshathjain.com/json/projects.json', function(data){
 		//alphabetical sort
 		var sortParameters = function(a,b){
 			return a.title.localeCompare(b.title);
