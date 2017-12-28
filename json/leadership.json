@@ -3,7 +3,7 @@
 		{
 			"title":"HackNA",
 			"richMedia":{
-				"src":"http://akshathjain.com/HackNA/images/logo.svg",
+				"src":"https://akshathjain.com/HackNA/2017/images/logo.svg",
 				"type":"icon"
 			},
 			"info":[
@@ -27,14 +27,14 @@
 			"buttons":[
 				{
 					"title":"Visit Website",
-					"link":"http://hackna.org"
+					"link":"https://hackna.org"
 				}
 			]
 		},
 		{
 			"title":"Code One",
 			"richMedia": {
-				"src":"http://projectcodeone.org/assets/favicon.png",
+				"src":"https://projectcodeone.org/assets/favicon.png",
 				"type":"icon"
 			},	
 			"info":[
@@ -58,7 +58,7 @@
 			"buttons":[
 				{
 					"title":"Visit Website",
-					"link":"http://projectcodeone.org"
+					"link":"https://projectcodeone.org"
 				}
 			]
 		},
@@ -118,7 +118,7 @@
 		{
 			"title":"Pittsburgh Forensics Institute",
 			"richMedia":{
-				"src":"http://akshathjain.com/PFIWebsite/images/gavel.png",
+				"src":"https://akshathjain.com/PFIWebsite/images/gavel.png",
 				"type":"icon"
 			},
 			"info":[
@@ -142,7 +142,7 @@
 			"buttons":[
 				{
 					"title":"Visit Webiste",
-					"link":"http://pghforensics.org"
+					"link":"https://pghforensics.org"
 				}
 			]
 		},
