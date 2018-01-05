@@ -20,14 +20,22 @@
 					"content":"North Allegheny Senior High School"
 				},
 				{
-					"title":"Number of Participants",
-					"content":"We expect between 300 and 350"
+					"title":"Community Outreach",
+					"content":"Over 200 people"
 				}
 			],
 			"buttons":[
 				{
 					"title":"Visit Website",
 					"link":"https://hackna.org"
+				},
+				{
+					"title":"Trib Live Article / Press Release",
+					"link":"http://triblive.com/local/northhills/13088220-74/hackna-designed-to-challenge-middle-high-school-students"
+				},
+				{
+					"title":"NASH Uproar Article",
+					"link":"https://nashuproar.org/5351/news/can-hack-it/"
 				}
 			]
 		},
