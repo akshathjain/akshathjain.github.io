@@ -3,7 +3,7 @@
 		{
 			"title":"HackNA",
 			"richMedia":{
-				"src":"https://akshathjain.com/HackNA/2017/images/logo.svg",
+				"src":"https://akshathjain.com/images/logo.svg",
 				"type":"icon"
 			},
 			"info":[
@@ -42,7 +42,7 @@
 		{
 			"title":"Code One",
 			"richMedia": {
-				"src":"https://projectcodeone.org/assets/favicon.png",
+				"src":"https://akshathjain.com/images/codeone.png",
 				"type":"icon"
 			},	
 			"info":[
@@ -73,7 +73,7 @@
 		{
 			"title":"Varsity Cross Country",
 			"richMedia":{
-				"src":"https:akshathjain.com/images/runner.jpg",
+				"src":"https://akshathjain.com/images/runner.jpg",
 				"type":"icon"
 			},
 			"info":[
@@ -94,7 +94,7 @@
 		{
 			"title":"Leap@CMU Teaching Assistant",
 			"richMedia":{
-				"src":"https://www.cs.cmu.edu/~leap/rotatingimg/leapbig2_08.jpg",
+				"src":"https://akshathjain.com/images/leap.jpg",
 				"type":"icon"
 			},
 			"info":[
@@ -125,7 +125,7 @@
 		{
 			"title":"Pittsburgh Forensics Institute",
 			"richMedia":{
-				"src":"https://akshathjain.com/PFIWebsite/images/gavel.png",
+				"src":"https://akshathjain.com/images/pfi.png",
 				"type":"icon"
 			},
 			"info":[
