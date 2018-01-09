@@ -139,6 +139,50 @@
 			]	
 		},
 		{
+			"title":"Computer Club",
+			"richMedia":{
+				"src":"https://akshathjain.com/images/computerclub.svg",
+				"type":"image"
+			},
+			"info":[
+				{
+					"title":"Description",
+					"content":"As a three-year Officer and four-year participant of Computer Club, I’m extremely involved with this club. When I joined, our Computer Club only had a meager 15 students; however, through my persistent advocacy for more STEM and computer science activities, I’ve helped this club more than triple in size to have 50 participants. In addition, I help organize biweekly meetings, create lessons plans for competition practices, and coordinate / direct computer science outreach programs at our middle and elementary schools."
+				},
+				{
+					"title":"Role",
+					"content":"Officer"
+				},
+				{
+					"title":"Number of Participants",
+					"content":"50"
+				}
+			]
+		},
+		{
+			"title":"Science Club",
+			"richMedia":{
+				"src":"https://akshathjain/images/scienceclub.svg",
+				"type":"image"
+			},
+			"info":[
+				{
+					"title":"Description",
+					"content":"As a two-year Officer of Science Club, I’m heavily invested in conducting my own research projects as well as helping others succeed for various science competitions. I also help keep an open channel of communication between competition administration and participants to ensure that projects are completed on time and deadlines are met. A summary of my projects can be found under the Projects tab."
+				},
+				{
+					"title":"Role",
+					"content":"Officer"
+				}
+			],
+			"buttons":[
+				{
+					"title":"Research Projects",
+					"link":"projects.html"
+				}
+			]
+		},
+		{
 			"title":"Leap@CMU Teaching Assistant",
 			"richMedia":{
 				"src":"https://akshathjain.com/images/leap.jpg",
