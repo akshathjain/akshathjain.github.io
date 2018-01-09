@@ -20,6 +20,8 @@ $(document).ready(function(){
 			//deal with rich media
 			if(data[i].richMedia.type == "icon")
 				richMedia.innerHTML = '<img class="leadership-media-icon" src="' + data[i].richMedia.src + '">';
+			else if(data[i].richMedia.type == "icon-wide")
+				richMedia.innerHTML = '<img class="leadership-media-icon-wide" src="' + data[i].richMedia.src + '">';
 			else if(data[i].richMedia.type == "image")
 				richMedia.innerHTML = '<img class="leadership-media-image" src="' + data[i].richMedia.src + '">';
 			else if(data[i].richMedia.type == "video")

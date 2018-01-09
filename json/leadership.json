@@ -82,7 +82,7 @@
 			"title":"Varsity Speech &amp; Debate",
 			"richMedia":{
 				"src":"https://akshathjain.com/images/speechanddebate.png",
-				"type":"image"
+				"type":"icon-wide"
 			},
 			"info":[
 				{
@@ -142,7 +142,7 @@
 			"title":"Computer Club",
 			"richMedia":{
 				"src":"https://akshathjain.com/images/computerclub.svg",
-				"type":"image"
+				"type":"icon-wide"
 			},
 			"info":[
 				{
@@ -155,7 +155,7 @@
 				},
 				{
 					"title":"Number of Participants",
-					"content":"50"
+					"content":"50 students"
 				}
 			]
 		},
@@ -163,7 +163,7 @@
 			"title":"Science Club",
 			"richMedia":{
 				"src":"https://akshathjain.com/images/scienceclub.svg",
-				"type":"image"
+				"type":"icon-wide"
 			},
 			"info":[
 				{
