@@ -22,7 +22,6 @@
 
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
-	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 	<script type="text/javascript" src="scripts/leadershipScripts.js"></script>
 	<script type="text/javascript" src="scripts/utils.js"></script>
 	<link rel="manifest" href="/manifest.json">
@@ -41,7 +40,7 @@
 
 </head>
 
-<body onresize="footerResizer()">
+<body>
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
@@ -85,12 +84,12 @@
 		</div>
 
 		<!-- content goes here (footer inside of this)-->
-		<main class="mdl-layout__content">
+		<main class="mdl-layout__content footer-bounds">
 			
 			<!--HOME SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
 				
-				<div id="leadership-card-container">
+				<div id="leadership-card-container" style="padding-top: 40px;">
 					<div class="card-container-leadership" id="leadership-card-layout">
 						<div class="card card-text-container">
 							<center><div class="mdl-spinner mdl-js-spinner is-active"></div></center>
@@ -111,16 +110,14 @@
 							</div>
 						</div>
 					</div>
-					
 				</div>
 
+				<!-- FOOTER -->
+				<footer class="mdl-mini-footer" id="footer">
+					<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
+				</footer>
 			</div>
 
-
-			<!-- FOOTER -->
-			<footer class="mdl-mini-footer" id="footer">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
-			</footer>
 		</main>
 	</div>
 </body>

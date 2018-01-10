@@ -52,9 +52,6 @@ $(document).ready(function(){
 
 		//turn off spinners
 		turnOffSpinners(document);
-
-		//call the footer resizer function to update status after content has been populated
-		footerResizer();
 	});
 
 });

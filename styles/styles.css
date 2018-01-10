@@ -49,52 +49,57 @@ blue{
 .card-container-home{
 	width: 68%;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 90px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+
+.footer-bounds{
+	height: 100vh; 
+	background: #424242;
+}
+
+.page-content{
+	background: #FAFAFA;
 }
 
 @media only screen and (max-width: 720px){
 	.card-container-home{
 		width: 90%;
 		margin: auto;
-		margin-top: 10%;
-		margin-bottom: 90px;
+		padding-top: 10%;
+		padding-bottom: 90px;
 	}
 }
 
 .card-container-codeone{
 	width: 80%;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 90px;
+	padding-top: 50px;
+	padding-bottom: 90px;
 }
 
 .card-container-projects-big{
 	width: 65%;
 	margin: auto; /*center align*/
-	margin-top: 40px;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 .card-container-leadership{
 	width: 65%;
 	margin: auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 .card-container-github{
 	width: 80%;
 	margin: auto; /*center align*/
-	margin-top: 40px;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 .card-container-contact{
 	width: 80%;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 90px;
+	padding-bottom: 90px;
 }
 
 @media only screen and (max-width: 720px){
@@ -173,8 +178,8 @@ blue{
 }
 
 .section-header{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .text-center{

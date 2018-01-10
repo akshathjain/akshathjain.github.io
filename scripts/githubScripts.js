@@ -23,9 +23,6 @@ $(document).ready(function(){
 
 		//turn off the spinners
 		turnOffSpinners(document);
-
-		//deterimine footer placement
-		footerResizer();
 	});
 
 	//get the github activity data
@@ -52,8 +49,6 @@ $(document).ready(function(){
 
 			description.innerHTML = new Date(response[i].created_at).toDateString() + " – " + response[i].repo.name;
 		});
-
-		footerResizer();
 	});
 	
 

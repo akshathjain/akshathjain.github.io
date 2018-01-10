@@ -10,7 +10,7 @@
 	<meta name="author" content="Akshath Jain">
 	<meta name="description" content="Hi, I'm Akshath Jain. Welcome to my website! I'm an avid Android Developer, programmer, and artificial intelligence aficionado. I'm currently a senior at North Allegheny Senior High School, and I enjoy running and playing tennis. Feel free to take a look around my site and view some of the projects that I've done!">
 	<meta name="keywords" content="Akshath, Jain, Akshath Jain, akshathjain, North, Allegheny, North Allegheny, Computer Club, Speech and Debate, Debate, public forum, pf, Code One, projectcodeone, PFI, Pittsburgh Forensics Institute, Machine Learning, AI, Artificial Intelligence, Student Planner, Calculator X, DrawBoard, Draw Board, OCR, optical character recognition, biography, bio, about, information, student, Leap, science fair, PRSEF, PJAS">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
 	
 	<!--MDL resources-->
@@ -23,7 +23,6 @@
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
 	<script type="text/javascript" src="scripts/projectsScripts.js"></script>
-	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 	<script type="text/javascript" src="scripts/utils.js"></script>
 	<link rel="manifest" href="/manifest.json">
 
@@ -41,7 +40,7 @@
 
 </head>
 
-<body onresize="footerResizer()">
+<body>
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
@@ -85,7 +84,7 @@
 		</div>
 
 		<!-- content goes here (footer inside of this)-->
-		<main class="mdl-layout__content">
+		<main class="mdl-layout__content footer-bounds">
 			
 			<!--PROJECTS SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
@@ -128,13 +127,13 @@
 					</div>
 				</div>
 
+
+				<!-- FOOTER -->
+				<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
+					<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
+				</footer>
+
 			</div>
-
-
-			<!-- FOOTER -->
-			<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
-			</footer>
 		</main>
 
 	</div>

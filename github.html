@@ -24,7 +24,6 @@
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
 	<script type="text/javascript" src="scripts/githubScripts.js"></script>
-	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 	<script type="text/javascript" src="scripts/utils.js"></script>	
 
 	<!-- google analytics tracking info -->
@@ -39,7 +38,7 @@
 	</script>
 
 </head>
-<body onresize="footerResizer()">
+<body>
 	
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
@@ -89,7 +88,7 @@
 		</div>
 
 		<!-- content goes here (footer inside of this)-->
-		<main class="mdl-layout__content">
+		<main class="mdl-layout__content footer-bounds">
 			
 			<!--HOME SCREEN CONTENT-->
 			<div class="page-content" id="pageContent">
@@ -133,6 +132,11 @@
 					
 				</div>
 
+				<!-- FOOTER -->
+				<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
+					<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
+				</footer>
+
 				<!-- script to resize the ellipse overflow width -->
 				<script type="text/javascript">
 					window.addEventListener("resize", widthHandler);
@@ -146,14 +150,8 @@
 						}
 					}
 				</script>
-
+				
 			</div>
-
-
-			<!-- FOOTER -->
-			<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain</div>
-			</footer>
 		</main>
 	</div>
 

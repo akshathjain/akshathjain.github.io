@@ -23,7 +23,6 @@
 
 	<!-- custom resources -->
 	<link rel="stylesheet" href="styles/styles.css">
-	<script type="text/javascript" src="scripts/footerScripts.js"></script>
 
 	<!-- google analytics tracking info -->
 	<script>
@@ -39,7 +38,7 @@
 
 </head>
 
-<body onresize="footerResizer()">
+<body>
 	<!-- main screen initialization -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 		<!-- header -->
@@ -84,10 +83,10 @@
 
 		
 		<!-- content goes here (footer inside of this)-->
-		<main class="mdl-layout__content">
+		<main class="mdl-layout__content footer-bounds">
 
 			<!--CONTACT SCREEN CONTENT-->
-			<div class="page-content" id="pageContent">
+			<div class="page-content" id="pageContent" style="padding-top: 50px;">
 
 				<!--email address-->
 				<div class="card-container-contact">
@@ -135,14 +134,12 @@
 					</div>
 				</div>
 
-
+				<!-- FOOTER -->
+				<footer class="mdl-mini-footer">
+					<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
+				</footer>
 			</div>
 
-
-			<!-- FOOTER -->
-			<footer class="mdl-mini-footer" id="footer" style="visibility: hidden;">
-				<div class="mdl-logo">©2017 Akshath Jain. All rights reserved. Designed and developed by Akshath Jain.</div>
-			</footer>
 		</main>
 
 	</div>

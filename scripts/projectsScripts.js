@@ -22,9 +22,6 @@ $(document).ready(function(){
 
 		//turn off the spinners
 		turnOffSpinners(document);
-
-		//call the footer resizer function to update status after content has been populated
-		footerResizer();
 	});
 
 	function dataBinder(data, i, layout){
