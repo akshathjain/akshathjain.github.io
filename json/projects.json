@@ -6,11 +6,11 @@
 			"buttons":[
 				{
 					"title":"VIEW PRESENTATION",
-					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Presentation.pdf');",
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Presentation.pdf');"
 				},
 				{
 					"title":"VIEW POSTER",
-					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Poster.pdf');",
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Poster.pdf');"
 				}
 			]
 		},
