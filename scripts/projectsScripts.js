@@ -15,7 +15,7 @@ $(document).ready(function(){
 		}
 
 		//inflate research projects	
-		data.researchProjects.sort(sortParameters);
+		//data.researchProjects.sort(sortParameters);
 		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container", dataBinder);
 
 		//inflate programming projects
