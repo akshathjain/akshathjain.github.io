@@ -1,6 +1,20 @@
 {
 	"researchProjects":[
 		{
+			"title":"The Correlation Between Internet Speeds and Obesity Rates",
+			"description":"With a growing obesity epidemic across the United States, its important to identify various factors in order to ameliorate the issue. This study attempts to pinpoint the effect of one variable, internet speeds, on obesity rates. Therefore, H¬0 is that there is no correlation between obesity and internet speeds (⍴XY = 0). At both the local (Pittsburgh, PA) and national levels, I found that both obesity (local: p<0.0001, national: p<0.0001) and internet speeds (local: p=0.024, national: p<0.0001) are highly correlated with income. As such, I analyzed aggregate data as well as income-grouped data based upon the Federal Poverty Level (FPL), established as $12,060 for a single person household. Median household incomes—for both neighborhoods and states—were divided by their respective average household size to normalize the dataset (i.e. all incomes in the analysis are relative to the FPL of a single person household). I conclusively determined that while both obesity and internet speeds are correlated to income, there is no correlation between obesity and internet speeds at either a local, or national, level using both aggregate and FPL-grouped data.",
+			"buttons":[
+				{
+					"title":"VIEW PRESENTATION",
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Presentation.pdf');",
+				},
+				{
+					"title":"VIEW POSTER",
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2018Poster.pdf');",
+				}
+			]
+		},
+		{
 			"title":"AI Based Opto-Lexical Pattern Analysis for Behavior Classification",
 			"description":"During the 2016 – 2017 school year, I expanded upon my previous project – Lexical Syntax Analysis for Hostile Behavior Identification – in order to add more features and make the classification algorithm more robust. While my previous project was focused more upon linguistic queues to identify potentially dangerous accounts, this project also incorporated image recognition to extract features such as the number of people per image, average age, and auto-generated image caption. These parameters (27 in total) where then inputted into an artificial neural network to correctly identify the hostility and threat of an account.",
 			"buttons":[
