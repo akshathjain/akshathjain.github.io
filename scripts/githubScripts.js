@@ -45,6 +45,9 @@ $(document).ready(function(){
 			}else if(response[i].type == "PublicEvent"){
 				title.innerHTML = "Publicized " + data[i].repo.name; 
 				icon.innerHTML = "public";
+			}else{
+				title.innerHTML = "Committed action";
+				icon.innerHTML = 'code';
 			}
 
 			description.innerHTML = new Date(response[i].created_at).toDateString() + " – " + response[i].repo.name;
