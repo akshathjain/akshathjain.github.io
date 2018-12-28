@@ -1,3 +1,10 @@
-<div class="nav">
-	<h5>hello!!</h5>
+<div class="navbar">
+	{% assign sorted = (site.pages | sort: 'pageRank') %}
+	{% for page in sorted %}
+
+	{% if page.pagerank != "" %}
+	<a>{{ page.title}} </a>
+	{% endif %}
+
+	{% endfor %}
 </div>

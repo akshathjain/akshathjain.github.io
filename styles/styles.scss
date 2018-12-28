@@ -1,0 +1,30 @@
+$primaryLight: 		#fafbfc;
+$secondaryLight: 	#ffffff;
+$primaryDark:       #24292e;
+$secondaryDark: 	#2b3137;
+$accentColor: 		#2dba4e;
+
+$textColor: 		#fff; 
+
+$navbarWidth: 250px;
+$navbarOffset: 320px;
+.navbar {
+	height: 100%;
+	width: $navbarWidth;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: $primaryDark;
+
+	a {
+
+	}
+}
+
+.content{
+	margin-left: $navbarOffset;
+}
+
+footer{
+	margin-left: $navbarOffset;
+}
