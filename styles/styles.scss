@@ -4,10 +4,12 @@ $primaryDark:       #24292e;
 $secondaryDark: 	#2b3137;
 $accentColor: 		#2dba4e;
 
-$textColor: 		#fff; 
+$textColorPrimary: 		#fff; 
+$textColorSecondary:    #000;
 
 $navbarWidth: 250px;
 $navbarOffset: 320px;
+
 .navbar {
 	height: 100%;
 	width: $navbarWidth;
@@ -16,8 +18,44 @@ $navbarOffset: 320px;
 	position: fixed;
 	background-color: $primaryDark;
 
-	a {
+	.avatar{
+		display: block;
+		margin: 26px auto 32px auto;
+		width: 160px;
+		height: auto;
+		border-radius: 50%;
+		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.4);
+	}
 
+	.title{
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 32px;
+		color: $textColorPrimary;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		padding: 15px 0px 15px 20%; //top, right, bottom, left
+		color: $textColorPrimary;
+		transition: 0.15s;
+
+		&:hover{
+			background-color: $secondaryDark;
+			transition: 0.15s;
+		}
+
+		&.selected{
+			color: $accentColor;
+		}
+
+		.icon{
+			width: 24px;
+			margin-right: 31px;
+			height: auto;
+			vertical-align: middle;
+		}
 	}
 }
 
