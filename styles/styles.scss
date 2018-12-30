@@ -7,16 +7,29 @@ $accentColor: 		#2dba4e;
 $textColorPrimary: 		#fff; 
 $textColorSecondary:    #000;
 
+$mobileMaxWidth: 		750px;
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+$navbarToTop: 10px;
+$navbarToLeft: 15px;
 $navbarWidth: 250px;
 $navbarOffset: 320px;
-
+$navbarTransitionTime: 0.15s;
 .navbar {
-	height: 100%;
+	height: 95%;
 	width: $navbarWidth;
-	top: 0;
-	left: 0;
+	top: $navbarToTop;
+	left: $navbarToLeft;
 	position: fixed;
+	border: 10px solid #000;
+	border-radius: 35px;
 	background-color: $primaryDark;
+	box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4); //h-offset, v-offset, blur, spread, color
+	transition: $navbarTransitionTime;
 
 	.avatar{
 		display: block;
@@ -24,7 +37,8 @@ $navbarOffset: 320px;
 		width: 160px;
 		height: auto;
 		border-radius: 50%;
-		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.4);
+		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.4); //h-offset, v-offset, blur, spread, color
+		transition: $navbarTransitionTime;
 	}
 
 	.title{
@@ -32,6 +46,7 @@ $navbarOffset: 320px;
 		font-size: 20px;
 		margin-bottom: 32px;
 		color: $textColorPrimary;
+		transition: $navbarTransitionTime;
 	}
 
 	a {
@@ -39,11 +54,11 @@ $navbarOffset: 320px;
 		text-decoration: none;
 		padding: 15px 0px 15px 20%; //top, right, bottom, left
 		color: $textColorPrimary;
-		transition: 0.15s;
+		transition: $navbarTransitionTime;
 
 		&:hover{
 			background-color: $secondaryDark;
-			transition: 0.15s;
+			transition: $navbarTransitionTime;
 		}
 
 		&.selected{
@@ -59,10 +74,74 @@ $navbarOffset: 320px;
 	}
 }
 
+//handle mobile view for navbar
+@media screen and (max-width: $mobileMaxWidth){
+	.navbar{
+		display: flex;
+		justify-content: space-between;
+		height: auto;
+		margin: 15px auto 15px auto;
+		position: static;
+		top: 0;
+		left: 0;
+		padding: 10px 15px 10px 15px; //top right bottom left
+
+		.avatar{
+			display: none;
+		}
+
+		.title{
+			display: none;
+		}
+
+		a{
+			padding: 5px;
+
+			.icon{
+				text-align: center;
+				margin: 0px;
+			}
+
+			.label{
+				display: none;
+			}
+		}
+	}
+}
+
+
+
 .content{
 	margin-left: $navbarOffset;
 }
 
-footer{
-	margin-left: $navbarOffset;
+//handle mobile view for content
+@media screen and (max-width: $mobileMaxWidth){
+	.content{
+		margin-left: 0px;
+	}
 }
+
+
+footer{
+	color: $textColorPrimary;
+	margin-left: $navbarOffset;
+	margin-right:  $navbarOffset - $navbarWidth - $navbarToLeft;
+	padding: 15px 15px 15px 20px;
+	border: 10px solid #000;
+	border-radius: 35px;
+	background-color: $primaryDark;
+	box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4); //h-offset, v-offset, blur, spread, color
+}
+
+
+//handle mobile view for footer
+@media screen and (max-width: $mobileMaxWidth){
+	footer{
+		width: auto;
+		margin: 0px;
+	}
+}
+
+
+
