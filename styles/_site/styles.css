@@ -1,0 +1,15 @@
+.navbar {
+  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #24292e; }
+
+.content {
+  margin-left: 320px; }
+
+footer {
+  margin-left: 320px; }
+
+/*# sourceMappingURL=styles.css.map */
