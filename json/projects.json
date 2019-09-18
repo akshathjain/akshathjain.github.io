@@ -1,6 +1,16 @@
 {
 	"researchProjects":[
 		{
+			"title":"Personalized Privacy Assistant Project: Internet of Things Assistant",
+			"description":"There currently exists no mechanism for individuals to determine the presence of Internet of Things (IoT) devices around them. Moreover, the ability for individuals to understand, control, and configure how their data is collected and processed by these devices is impractical, if not impossible. And with the increasing ubiquity of IoT devices, a solution is paramount. This is where the Internet of Things Assistant (IoTA) comes in. The IoTA is a part of the Internet of Things Privacy Infrastructure (IoTPI) — a scalable paradigm where system administrators can list all nearby IoT devices and where end-users can view, manage, and opt-in/out of data collection, empowering individuals to retake control of their data. This presentation highlights the progress made by the Personalized Privacy Assistant team in delivering a working prototype of the IoTA app.",
+			"buttons":[
+				{
+					"title":"VIEW POSTER",
+					"onclick":"window.location.assign('http://akshathjain.com/assets/2019Poster.pdf');"
+				}
+			]
+		},
+		{
 			"title":"The Correlation Between Internet Speeds and Obesity Rates",
 			"description":"With a growing obesity epidemic across the United States, its important to identify various factors in order to ameliorate the issue. This study attempts to pinpoint the effect of one variable, internet speeds, on obesity rates. Therefore, H¬0 is that there is no correlation between obesity and internet speeds (⍴XY = 0). At both the local (Pittsburgh, PA) and national levels, I found that both obesity (local: p<0.0001, national: p<0.0001) and internet speeds (local: p=0.024, national: p<0.0001) are highly correlated with income. As such, I analyzed aggregate data as well as income-grouped data based upon the Federal Poverty Level (FPL), established as $12,060 for a single person household. Median household incomes—for both neighborhoods and states—were divided by their respective average household size to normalize the dataset (i.e. all incomes in the analysis are relative to the FPL of a single person household). I conclusively determined that while both obesity and internet speeds are correlated to income, there is no correlation between obesity and internet speeds at either a local, or national, level using both aggregate and FPL-grouped data.",
 			"buttons":[
@@ -23,7 +33,7 @@
 					"onclick":"window.location.assign('http://akshathjain.com/assets/2017ScienceFairPresentation.pdf');"
 				},
 				{
-				
+
 					"title":"VIEW RESEARCH PAPER",
 					"onclick":"window.location.assign('http://akshathjain.com/assets/2017ResearchPaper.pdf');"
 				},
