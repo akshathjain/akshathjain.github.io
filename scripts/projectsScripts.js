@@ -5,21 +5,19 @@ Purpose: scripts for project.html, includes a "layout inflator" to automatically
 */
 
 $(document).ready(function(){
-	console.log('hi');
 	//load JSON
 	$.getJSON('https://akshathjain.com/json/projects.json', function(data){
-		console.log('here');
 		//alphabetical sort
 		var sortParameters = function(a,b){
 			return a.title.localeCompare(b.title);
 		}
 
-		//inflate research projects	
+		//inflate research projects
 		//data.researchProjects.sort(sortParameters);
 		layoutInflator(data.researchProjects, "research-projects-layout", "research-projects-container", dataBinder);
 
 		//inflate programming projects
-		data.programmingProjects.sort(sortParameters);
+		//data.programmingProjects.sort(sortParameters);
 		layoutInflator(data.programmingProjects, "programming-projects-layout", "programming-projects-container", dataBinder);
 
 		//turn off the spinners
