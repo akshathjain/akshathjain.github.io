@@ -150,6 +150,30 @@
 			]
 		},
 		{
+			"title":"Card Cutter",
+			"description":"Card Cutter is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/CardCutter');"
+				},
+				{
+					"title":"VIEW ON CHROME WEB STORE",
+					"onclick":"window.location.assign('https://chrome.google.com/webstore/detail/card-cutter/iggoldplbhinbmldepiifdjfenfiompa?hl=en');"
+				}
+			]
+		},
+		{
+			"title":"HackNA Website",
+			"description":"During the 2017 - 2018 school year, I founded and directed HackNA, a high school hackathon for the Greater Pittsburgh Area. Hosted by North Allegheny, HackNA allows more middle and high schools to become interested in computer science and robotics at an earlier age. One of my responsibilities for this event was to create the website, which would serve as the event's landing page.",
+			"buttons":[
+				{
+					"title":"VISIT SITE",
+					"onclick":"window.location.assign('http://hackna.org');"
+				}
+			]
+		},
+		{
 			"title":"Pittsburgh Forensics Institute Website",
 			"description":"During the summer of 2017, I was responsible for organizing, running, and teaching at Pittsburgh Forensics Institute, which is a Speech &amp; Debate camp for the greater Pittsburgh Area. One of my responsibilities was to develop a new website to replace the old one. This site utilizes dynamic elements in order to automatically update key data using JSON and JavaScript.",
 			"buttons":[
@@ -166,20 +190,6 @@
 				{
 					"title":"VIEW PRESENTATION",
 					"onclick":"window.location.assign('http://akshathjain.com/assets/VirtualEtrackerPresentation.pdf');"
-				}
-			]
-		},
-		{
-			"title":"Card Cutter",
-			"description":"Card Cutter is a Chrome extension designed to help debaters “cut cards” (create website citations along with a block of text from the site).",
-			"buttons":[
-				{
-					"title":"VIEW ON GITHUB",
-					"onclick":"window.location.assign('http://github.com/akshathjain/CardCutter');"
-				},
-				{
-					"title":"VIEW ON CHROME WEB STORE",
-					"onclick":"window.location.assign('https://chrome.google.com/webstore/detail/card-cutter/iggoldplbhinbmldepiifdjfenfiompa?hl=en');"
 				}
 			]
 		},
@@ -225,16 +235,6 @@
 				{
 					"title":"VIEW PLAY STORE LISTING",
 					"onclick":"window.location.assign('https://play.google.com/store/apps/details?id=com.aceindustries.calculator');"
-				}
-			]
-		},
-		{
-			"title":"HackNA Website",
-			"description":"During the 2017 - 2018 school year, I founded and directed HackNA, a high school hackathon for the Greater Pittsburgh Area. Hosted by North Allegheny, HackNA allows more middle and high schools to become interested in computer science and robotics at an earlier age. One of my responsibilities for this event was to create the website, which would serve as the event's landing page.",
-			"buttons":[
-				{
-					"title":"VISIT SITE",
-					"onclick":"window.location.assign('http://hackna.org');"
 				}
 			]
 		}
