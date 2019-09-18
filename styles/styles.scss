@@ -1,9 +1,11 @@
+@import "columns.sass";
+
 $primaryLight: 		#fafbfc;
 $secondaryLight: 	#ffffff;
 $primaryDark:       #24292e;
 $secondaryDark: 	#2b3137;
-$accentColor: 		#2dba4e;
-$accentColor700: 	#1C8534;
+$accentColor: 		#0592FF;
+$accentColor700: 	#01345B;
 
 $textColorPrimary: 		#fff; 
 $textColorSecondary:    #000;
@@ -15,10 +17,10 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-$navbarToTop: 10px;
-$navbarToLeft: 15px;
+$navbarToTop: 20px;
+$navbarToLeft: 25px;
 $navbarWidth: 250px;
-$navbarOffset: 320px;
+$navbarOffset: $navbarWidth + 3 * $navbarToLeft;
 $navbarTransitionTime: 0.15s;
 .navbar {
 	height: 95%;
@@ -53,6 +55,7 @@ $navbarTransitionTime: 0.15s;
 	a {
 		display: block;
 		text-decoration: none;
+		margin: 10px 0px 10px 0px;
 		padding: 15px 0px 15px 20%; //top, right, bottom, left
 		color: $textColorPrimary;
 		transition: $navbarTransitionTime;
@@ -64,11 +67,15 @@ $navbarTransitionTime: 0.15s;
 
 		&.selected{
 			color: $accentColor;
+			background-color: $secondaryDark;
+			font-weight: bold;
+			box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4); //h-offset, v-offset, blur, spread, color
 		}
 
 		.icon{
 			width: 24px;
 			margin-right: 31px;
+			margin-bottom: 2px;
 			height: auto;
 			vertical-align: middle;
 		}

@@ -1,132 +1,69 @@
-body {
-  font-family: 'Raleway', sans-serif; }
+/*
+Error: Undefined variable: "$radius".
+        on line 10 of columns.sass
+        from line 1 of styles.scss
 
-.navbar {
-  height: 95%;
-  width: 250px;
-  top: 10px;
-  left: 15px;
-  position: fixed;
-  border: 5px solid #000;
-  border-radius: 35px;
-  background-color: #24292e;
-  box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.4);
-  transition: 0.15s; }
-  .navbar .avatar {
-    display: block;
-    margin: 26px auto 32px auto;
-    width: 160px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.4);
-    transition: 0.15s; }
-  .navbar .title {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 32px;
-    color: #fff;
-    transition: 0.15s; }
-  .navbar a {
-    display: block;
-    text-decoration: none;
-    padding: 15px 0px 15px 20%;
-    color: #fff;
-    transition: 0.15s; }
-    .navbar a:hover {
-      background-color: #2b3137;
-      transition: 0.15s; }
-    .navbar a.selected {
-      color: #2dba4e; }
-    .navbar a .icon {
-      width: 24px;
-      margin-right: 31px;
-      height: auto;
-      vertical-align: middle; }
+5: $primaryDark:       #24292e;
+6: $secondaryDark: 	#2b3137;
+7: $accentColor: 		#0592FF;
+8: $accentColor700: 	#01345B;
+9: 
+10: $textColorPrimary: 		#fff; 
+11: $textColorSecondary:    #000;
+12: 
+13: $mobileMaxWidth: 		750px;
+14: $cardBorder: 			5px;
+15: 
 
-@media screen and (max-width: 750px) {
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    margin: 15px auto 15px auto;
-    position: static;
-    top: 0;
-    left: 0;
-    padding: 10px 15px 10px 15px; }
-    .navbar .avatar {
-      display: none; }
-    .navbar .title {
-      display: none; }
-    .navbar a {
-      padding: 5px; }
-      .navbar a .icon {
-        text-align: center;
-        margin: 0px; }
-      .navbar a .label {
-        display: none; } }
-.content {
-  margin-top: 50px;
-  margin-left: 320px;
-  margin-right: 55px; }
-  .content .card {
-    border-radius: 35px;
-    padding: 15px 15px 20px 20px;
-    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.4); }
-    .content .card .image {
-      border-radius: 35px 35px 0px 0px;
-      margin: -15px -15px 20px -20px;
-      background-size: cover;
-      height: 40vh;
-      background-position: center; }
-    .content .card .title {
-      font-weight: bold; }
-    .content .card .button-list {
-      display: inline-block; }
-    .content .card .button {
-      display: inline-block;
-      background-color: rgba(0, 0, 0, 0);
-      color: #000;
-      cursor: pointer;
-      padding: 3px 8px 3px 8px;
-      margin: 8px 4px 8px 4px;
-      border-radius: 15px;
-      border-style: solid;
-      border-width: 3px;
-      border-color: #1C8534;
-      transition: 0.1s;
-      -webkit-transition: 0.1s;
-      user-select: none;
-      text-decoration: none;
-      font-weight: bold;
-      white-space: pre-wrap; }
-      .content .card .button:hover {
-        background-color: #2dba4e;
-        color: #ffffff;
-        text-decoration: none;
-        transition: 0.1s;
-        -webkit-transition: 0.1s; }
-
-@media screen and (max-width: 750px) {
-  .content {
-    margin-left: 0px;
-    margin-right: 0px; }
-    .content .card {
-      width: 85%;
-      margin: auto; } }
-footer {
-  color: #fff;
-  margin-top: 50px;
-  margin-left: 320px;
-  margin-right: 55px;
-  padding: 15px 15px 15px 20px;
-  border: 5px solid #000;
-  border-radius: 35px;
-  background-color: #24292e;
-  box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.4); }
-
-@media screen and (max-width: 750px) {
-  footer {
-    width: 85%;
-    margin: 50px auto 0px auto; } }
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+columns.sass:10
+styles.scss:1
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:478:in `visit_variable'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/exec/sass_scss.rb:387:in `run'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/exec/base.rb:50:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/exec/base.rb:18:in `parse!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$radius\".\A         on line 10 of columns.sass\A         from line 1 of styles.scss\A \A 5: $primaryDark:       #24292e;\A 6: $secondaryDark: 	#2b3137;\A 7: $accentColor: 		#0592FF;\A 8: $accentColor700: 	#01345B;\A 9: \A 10: $textColorPrimary: 		#fff; \A 11: $textColorSecondary:    #000;\A 12: \A 13: $mobileMaxWidth: 		750px;\A 14: $cardBorder: 			5px;\A 15: "; }
