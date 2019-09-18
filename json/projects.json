@@ -86,6 +86,56 @@
 	],
 	"programmingProjects":[
 		{
+			"title":"print*",
+			"description":"",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/HackCMU2019');"
+				}
+			]
+		},
+		{
+			"title":"sliding_up_panel",
+			"description":"",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/sliding_up_panel');"
+				}
+			]
+		},
+		{
+			"title":"grouped_buttons",
+			"description":"",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/grouped_buttons');"
+				}
+			]
+		},
+		{
+			"title":"Foxtrot",
+			"description":"",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/Foxtrot');"
+				}
+			]
+		},
+		{
+			"title":"Flow",
+			"description":"",
+			"buttons":[
+				{
+					"title":"VIEW ON GITHUB",
+					"onclick":"window.location.assign('http://github.com/akshathjain/HackCMU2018');"
+				}
+			]
+		},
+		{
 			"title":"DrawBoard: A Handwriting Recognition Algorithm",
 			"description":"DrawBoard is a handwriting recognition algorithm implemented in Java. The program uses a Java Swing GUI that allows the user to write letters or words which is then identified by the computer using an artificial neural network that I designed.",
 			"buttons":[
