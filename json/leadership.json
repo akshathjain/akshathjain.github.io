@@ -1,6 +1,41 @@
 {
 	"leadership":[
 		{
+			"title":"ScottyLabs",
+			"richMedia":{
+				"src":"https://akshathjain.com/images/scottylabs.png",
+				"type":"icon"
+			},
+			"info":[
+				{
+					"title":"Description",
+					"content":""
+				},
+				{
+					"title":"Role",
+					"content":"Director of Operations"
+				},
+				{
+					"title":"Years active",
+					"content":"September 2018 — present"
+				},
+				{
+					"title":"Location",
+					"content":"Carnegie Mellon University"
+				},
+				{
+					"title":"Community Outreach",
+					"content":"Over 500 people"
+				}
+			],
+			"buttons":[
+				{
+					"title":"Visit Website",
+					"link":"https://scottylabs.org"
+				}
+			]
+		},
+		{
 			"title":"HackNA",
 			"richMedia":{
 				"src":"https://akshathjain.com/images/hackna.svg",
@@ -48,7 +83,7 @@
 			"richMedia": {
 				"src":"https://akshathjain.com/images/codeone.png",
 				"type":"icon"
-			},	
+			},
 			"info":[
 				{
 					"title":"Description",
@@ -136,7 +171,7 @@
 					"title":"Number of runners",
 					"content":"79 runners"
 				}
-			]	
+			]
 		},
 		{
 			"title":"Computer Club",
