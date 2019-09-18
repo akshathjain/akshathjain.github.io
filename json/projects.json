@@ -100,6 +100,10 @@
 			"description":"",
 			"buttons":[
 				{
+					"title":"VIEW ON PUB",
+					"onclick":"window.location.assign('https://pub.dartlang.org/packages/sliding_up_panel');"
+				},
+				{
 					"title":"VIEW ON GITHUB",
 					"onclick":"window.location.assign('http://github.com/akshathjain/sliding_up_panel');"
 				}
@@ -109,6 +113,10 @@
 			"title":"grouped_buttons",
 			"description":"",
 			"buttons":[
+				{
+					"title":"VIEW ON PUB",
+					"onclick":"window.location.assign('https://pub.dartlang.org/packages/grouped_buttons');"
+				},
 				{
 					"title":"VIEW ON GITHUB",
 					"onclick":"window.location.assign('http://github.com/akshathjain/grouped_buttons');"
